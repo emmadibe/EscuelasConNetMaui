@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EscuelaConMaui.csproj",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\EscuelaConMaui.csproj",
+              "RelativeDocumentMoniker": "EscuelaConMaui.csproj",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\EscuelaConMaui.csproj",
+              "RelativeToolTip": "EscuelaConMaui.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T18:50:40.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-23T18:41:50.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:35:37.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:35:01.24Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

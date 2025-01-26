@@ -1,0 +1,1 @@
+A:\Dev\Proyectos\mi proyecto\EscuelaConMAUI\EscuelaConMaui\EscuelaConMaui.csproj;x64
