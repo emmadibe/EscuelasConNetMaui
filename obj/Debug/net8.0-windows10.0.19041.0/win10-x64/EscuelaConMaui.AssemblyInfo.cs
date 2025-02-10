@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EscuelaConMaui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2ce93775bd65318724d3c78990079aca0c3a6cd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EscuelaConMaui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EscuelaConMaui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,12 +4,14 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:EscuelaConMaui"
+    xmlns:vi="clr-namespace:EscuelaConMaui.Views" 
     Shell.FlyoutBehavior="Disabled"
     Title="EscuelaConMaui">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate vi:Login}"
         Route="MainPage" />
 
 </Shell>
+<!--Fijate que le cambié el lanzador: le puse Login, en vez de MainPage. AppShall establece cuál es la vista inicial. -->
