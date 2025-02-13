@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels"
+             xmlns:enum="clr-namespace:EscuelaConMaui.Enums"               
+             x:Class="EscuelaConMaui.Views.SignUpForm"
+             x:DataType="vm:SignUpFormViewModel"
+             Title="SignUpForm">
+    
+    <ContentPage.BindingContext>
+        <vm:SignUpFormViewModel></vm:SignUpFormViewModel>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout>
+        <Label BackgroundColor="Aqua"> SIGN UP</Label>
+        <Entry Placeholder="Nombre" x:Name="nombreEntry"/>
+        <Entry Placeholder="Contraseña" x:Name="passwordEntry" IsPassword="True"/>
+        <Picker Title="Selecciona una rama"
+                ItemsSource="{Binding Ramas}"
+                SelectedItem="{Binding SelectedRama}"
+                ItemDisplayBinding="{Binding SelectedRama.Nombre}"/>
+
+        <Button Text="SignUp" Command="{Binding signUpCommand}"/>
+
+    </VerticalStackLayout>
+</ContentPage>

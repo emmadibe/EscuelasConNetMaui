@@ -52,3 +52,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[A:/Dev/Proyectos/mi proyecto/EscuelaConMAUI/EscuelaConMaui/Views/SignUpForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.SignUpForm.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignUpForm.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignUpForm.xaml

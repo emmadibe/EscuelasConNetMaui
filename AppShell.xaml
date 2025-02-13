@@ -10,8 +10,8 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate vi:Login}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate vi:SignUpForm}"
+        Route="SignUp" />
 
 </Shell>
 <!--Fijate que le cambié el lanzador: le puse Login, en vez de MainPage. AppShall establece cuál es la vista inicial. -->

@@ -13,7 +13,7 @@ namespace EscuelaConMaui.ViewModels
     {
         private readonly LoginIFunctions functions; 
 
-        public LoginViewModel()
+        public LoginViewModel() //Builder
             => this.functions = App.Current.Services.GetRequiredService<LoginIFunctions>();//Le digo al software que quiero acceder al servicio de tipo LoginIFunctions. Estoy inyectando la dependencia (LoginIFunctions) por MÉTODO. 
 
         [RelayCommand] //Propiedad de toolkit que establece al método por debajo como comando, lo cual me permite usarlo en la o en las vistas asociadas a mi clase viewModel. 
