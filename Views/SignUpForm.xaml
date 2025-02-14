@@ -17,7 +17,7 @@
         <Picker Title="Selecciona una rama"
                 ItemsSource="{Binding Ramas}"
                 SelectedItem="{Binding SelectedRama}"
-                ItemDisplayBinding="{Binding SelectedRama.Nombre}"/>
+                ItemDisplayBinding="{Binding SelectedRama}"/>
 
         <Button Text="SignUp" Command="{Binding signUpCommand}"/>
 

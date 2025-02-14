@@ -20,6 +20,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
 		<!-- Display name -->
 		<ApplicationTitle>EscuelaConMaui</ApplicationTitle>
 
