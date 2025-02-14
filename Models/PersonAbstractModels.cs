@@ -8,8 +8,8 @@ namespace EscuelaConMaui.Models
 {
     public abstract class PersonAbstractModels
     {
-        protected string name { get; set; }
-        protected string lastName { get; set; }
-        protected int age { get; set; }
+        protected string? name { get; set; }
+        protected string? lastName { get; set; }
+        protected int? age { get; set; }
     }
 }

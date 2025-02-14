@@ -8,7 +8,7 @@ namespace EscuelaConMaui
 {
     public partial class App : Application
     {
-        public new static App Current => (App)Application.Current;
+        public new static App Current => Application.Current as App ?? throw new InvalidOperationException("Application.Current is not an instance of App or is null");
         public IServiceProvider Services { get; set; }
         public App()
         {

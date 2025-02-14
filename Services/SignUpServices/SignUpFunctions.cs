@@ -35,9 +35,7 @@ namespace EscuelaConMaui.Services.SignUpServices
             //RamaItem es una clase con tres propiedades: una, de tipo Rama; otra, string; y otra, int.  
         }
 
-        public void signUp()
-        {
-            throw new NotImplementedException();
-        }
+        public void _signUp()
+            => throw new NotImplementedException();
     }
 }

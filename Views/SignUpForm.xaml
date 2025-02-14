@@ -4,15 +4,14 @@
              xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels"
              xmlns:enum="clr-namespace:EscuelaConMaui.Enums"               
              x:Class="EscuelaConMaui.Views.SignUpForm"
-             x:DataType="vm:SignUpFormViewModel"
              Title="SignUpForm">
     
     <ContentPage.BindingContext>
         <vm:SignUpFormViewModel></vm:SignUpFormViewModel>
     </ContentPage.BindingContext>
-    
-    <VerticalStackLayout>
-        <Label BackgroundColor="Aqua"> SIGN UP</Label>
+
+    <VerticalStackLayout  x:DataType="vm:SignUpFormViewModel">
+        <Label BackgroundColor="Aqua">   </Label>
         <Entry Placeholder="Nombre" x:Name="nombreEntry"/>
         <Entry Placeholder="Contraseña" x:Name="passwordEntry" IsPassword="True"/>
         <Picker Title="Selecciona una rama"

@@ -19,15 +19,27 @@ namespace EscuelaConMaui.ViewModels
 
         //PROPIEDADES:
 
-        //Acordate que la propiedd ObservableProperty crea, aunque no la veamos, una propiedad oública de la propiedad privada de abajo y le cambia la inicial a mayúscula. En este caso, crea una propiedad Ramas, la cual usaré en el método cargarRamas. 
-        [ObservableProperty]
-        private ObservableCollection<RamaItem> ramas; //El primer atributo de mi ViewModel es una colección de RamaItem. Cada elemento de mi colección es una instancia de RamaItem. Por lo tanto, cada elemento de la colección tendrá tres propiedades: una Rama, que es el enum; un string, que indica el nombre; y un int, que indica el valor. 
-        [Required(ErrorMessage = "El campo apellido es obligatorio, pal")] 
-        [ObservableProperty]
+ 
+        private ObservableCollection<RamaItem> ramas = new(); //El primer atributo de mi ViewModel es una colección de RamaItem. Cada elemento de mi colección es una instancia de RamaItem. Por lo tanto, cada elemento de la colección tendrá tres propiedades: una Rama, que es el enum; un string, que indica el nombre; y un int, que indica el valor. 
+        public ObservableCollection<RamaItem> Ramas
+        {
+            get => ramas;
+            set
+            {
+                this.ramas = value; 
+            }
+        }
+
         private RamaItem selectedRama = new RamaItem(); //Otra propiedad es una instancia de RamaItem. 
-        [Required(ErrorMessage = "El campo apellido es obligatorio, pal")]
+        public RamaItem SelectedRama
+        {
+            get => selectedRama;
+            set
+            {
+                this.selectedRama = value;
+            }
+        }
         private string name = string.Empty;
-        [Required(ErrorMessage = "El campo apellido es obligatorio, pal")]
         public string Name
         {
             get => name;
@@ -70,7 +82,7 @@ namespace EscuelaConMaui.ViewModels
         [RelayCommand]
         public void signUp()
         {
-            this.functions.signUp();
+            this.functions._signUp();
         }
        
     }

@@ -9,9 +9,9 @@
     Title="EscuelaConMaui">
 
     <ShellContent
-        Title="Home"
+        Title="SignUpForm"
         ContentTemplate="{DataTemplate vi:SignUpForm}"
-        Route="SignUp" />
+        Route="SignUpForm" />
 
 </Shell>
 <!--Fijate que le cambié el lanzador: le puse Login, en vez de MainPage. AppShall establece cuál es la vista inicial. -->

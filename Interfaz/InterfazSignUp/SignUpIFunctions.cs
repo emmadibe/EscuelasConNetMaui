@@ -9,7 +9,7 @@ namespace EscuelaConMaui.Interfaz.InterfazSignUp
 {
     public interface SignUpIFunctions
     {
-        public void signUp();
+        public void _signUp();
 
         public ObservableCollection<RamaItem> CargarRamas();
     }

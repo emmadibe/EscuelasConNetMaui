@@ -1,1 +1,1 @@
-A:\Dev\Proyectos\mi proyecto\EscuelaConMAUI\EscuelaConMaui\EscuelaConMaui.csproj;x64
+C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\EscuelaConMaui.csproj;x64
