@@ -5,19 +5,25 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EscuelaConMaui.Enums;
 
 namespace EscuelaConMaui.Services.SignUpServices
 {
-    public class SignUpFunctions : SignUpFormViewModel, SignUpIFunctions //Implementa la interfaz.
+    public class SignUpFunctions : SignUpIFunctions //Implementa la interfaz.
     {
+
+
         public ObservableCollection<RamaItem> CargarRamas()
         {
+            ObservableCollection<RamaItem> Ramas; //Ramas es el nombre de mi colección ObservableCollection<RamaItem>
+
             Ramas = new ObservableCollection<RamaItem>(
                  Enum.GetValues(typeof(Rama)).Cast<Rama>().Select
                                                              (
                                                                  rama =>
                                                                  {
                                                                      var (nombre, valor) = rama.GetInfo();
+                                                                   
                                                                      return new RamaItem { Rama = rama, Nombre = nombre, Valor = valor };
                                                                  }
                                                              )

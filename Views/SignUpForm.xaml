@@ -5,21 +5,21 @@
              xmlns:enum="clr-namespace:EscuelaConMaui.Enums"               
              x:Class="EscuelaConMaui.Views.SignUpForm"
              Title="SignUpForm">
-    
+
     <ContentPage.BindingContext>
-        <vm:SignUpFormViewModel></vm:SignUpFormViewModel>
+        <vm:SignUpFormViewModel/>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout  x:DataType="vm:SignUpFormViewModel">
+    <VerticalStackLayout x:DataType="vm:SignUpFormViewModel" >
         <Label BackgroundColor="Aqua">   </Label>
         <Entry Placeholder="Nombre" x:Name="nombreEntry"/>
         <Entry Placeholder="Contraseña" x:Name="passwordEntry" IsPassword="True"/>
         <Picker Title="Selecciona una rama"
                 ItemsSource="{Binding Ramas}"
                 SelectedItem="{Binding SelectedRama}"
-                ItemDisplayBinding="{Binding SelectedRama}"/>
+                ItemDisplayBinding="{Binding SelectedRama.Nombre}"/>
 
-        <Button Text="SignUp" Command="{Binding signUpCommand}"/>
+        <Button Text="SignUp" Command="{Binding SignUpCommand}"/>
 
     </VerticalStackLayout>
 </ContentPage>

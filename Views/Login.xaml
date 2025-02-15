@@ -4,7 +4,13 @@
              x:Class="EscuelaConMaui.Views.Login"
              xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels"
              Title="Login">
-    <VerticalStackLayout x:DataType="vm:LoginViewModel">
+
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel/>
+    </ContentPage.BindingContext>
+
+
+   <VerticalStackLayout x:DataType="vm:LoginViewModel">
         <Entry Placeholder="Nombre" x:Name="nombreEntry"/>
         <Entry Placeholder="Contraseña" x:Name="passwordEntry" IsPassword="True"/>
 

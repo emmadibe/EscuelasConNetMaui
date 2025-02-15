@@ -24,20 +24,15 @@ namespace EscuelaConMaui.ViewModels
         public ObservableCollection<RamaItem> Ramas
         {
             get => ramas;
-            set
-            {
-                this.ramas = value; 
-            }
+            set => SetProperty(ref ramas, value, true);
         }
 
         private RamaItem selectedRama = new RamaItem(); //Otra propiedad es una instancia de RamaItem. 
         public RamaItem SelectedRama
         {
             get => selectedRama;
-            set
-            {
-                this.selectedRama = value;
-            }
+            set => SetProperty(ref selectedRama, value, true);
+            
         }
         private string name = string.Empty;
         public string Name
@@ -65,12 +60,18 @@ namespace EscuelaConMaui.ViewModels
         {
             this.functions = App.Current.Services.GetRequiredService<SignUpIFunctions>(); //Le digo al software que quiero acceder al servicio de tipo SignUpIFunctions. Estoy inyectando la dependencia (SignUpIFunctions) por MÉTODO. 
 
-            Ramas = functions.CargarRamas(); //En el constructor, estoy llamando al método CargarRamas(). Por lo tanto, ni bien comboco al método SignUpFormViewModel se carga la propiedad-colección Ramas.
+            CargarRamas(); //En el constructor, estoy llamando al método CargarRamas(). Por lo tanto, ni bien comboco al método SignUpFormViewModel se carga la propiedad-colección Ramas.
                                              //Este método lo que hace es inicializar mi propiedad colección Ramas. 
         }
 
         [RelayCommand]
-        private void RamaSeleccionada()
+        public void CargarRamas()
+        {
+           Ramas =  this.functions.CargarRamas();
+        }
+
+        [RelayCommand]
+        public void RamaSeleccionada()
         {
             if (SelectedRama != null)
             {
@@ -80,10 +81,10 @@ namespace EscuelaConMaui.ViewModels
         }
 
         [RelayCommand]
-        public void signUp()
+        public void SignUp()
         {
             this.functions._signUp();
         }
-       
+
     }
 }
