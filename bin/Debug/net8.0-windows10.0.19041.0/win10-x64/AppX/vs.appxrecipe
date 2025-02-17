@@ -30,7 +30,7 @@
     <AppXManifest Include="A:\Dev\Proyectos\mi proyecto\EscuelaConMAUI\EscuelaConMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-02-15T03:51:43.158</Modified>
+      <Modified>2025-02-17T19:11:18.875</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="A:\Dev\Proyectos\mi proyecto\EscuelaConMAUI\EscuelaConMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EscuelaConMaui.dll">
       <PackagePath>EscuelaConMaui.dll</PackagePath>
-      <Modified>2025-02-15T03:51:42.657</Modified>
+      <Modified>2025-02-17T19:11:16.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="A:\Dev\Proyectos\mi proyecto\EscuelaConMAUI\EscuelaConMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EscuelaConMaui.exe</PackagePath>
-      <Modified>2025-02-15T03:51:42.663</Modified>
+      <Modified>2025-02-17T19:11:17.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="A:\Dev\Proyectos\mi proyecto\EscuelaConMAUI\EscuelaConMaui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

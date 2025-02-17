@@ -31,11 +31,4 @@
         }
     }
 
-    public class RamaItem
-    { //Esta clase tiene tres propiedades: una Rama, un string y un int.
-        public Rama Rama { get; set; }
-        public string? Nombre { get; set; }
-        public int Valor { get; set; }
-    }
-
 }

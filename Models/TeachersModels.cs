@@ -8,6 +8,6 @@ namespace EscuelaConMaui.Models
 {
     internal class TeachersModels : PersonAbstractModels
     {
-        
+        protected Rama rama {  get; set; }
     }
 }
