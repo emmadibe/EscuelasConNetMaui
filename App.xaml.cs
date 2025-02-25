@@ -20,6 +20,7 @@ namespace EscuelaConMaui
         private static IServiceProvider ConfigureServices(ServiceCollection services)
         {
             //Services:
+            services.AddSingleton<ITeachers, TeachersServices>(); //Inyecto los métodos de la interfaz ITeachers cuya implementación está en la clase TeachersService. 
             services.AddSingleton<LoginIFunctions, LoginFunctions>();//Quiero acceder a la función de la interfaz LoginIFunctions con la implementación de LoginFunctions.  
             services.AddSingleton<GeneralsIFunctions, GeneralsFunctions>(); //Quiero acceder a las funciones definidas en la interfaz GeneralIFunctions, con las implementaciones que están en la clase GeneralFunctions. 
 

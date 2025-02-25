@@ -3,44 +3,84 @@
   "WorkspaceRootPath": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\models\\personabstractmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\personabstractmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\models\\teachersmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\teachersmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\helpers\\sqllitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:helpers\\sqllitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\services\\teachersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\teachersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\interfaz\\iteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\iteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\services\\serviceslogin\\generalsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\serviceslogin\\generalsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\helpers\\fileacceshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:helpers\\fileacceshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\enums\\rama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:enums\\rama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\helpers\\sqllitebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:helpers\\sqllitebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\views\\signupform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\signupform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\models\\abstractbaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\abstractbaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\services\\serviceslogin\\generalsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\serviceslogin\\generalsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -55,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\generalsifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\enums\\rama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:enums\\rama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\services\\serviceslogin\\loginfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\serviceslogin\\loginfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,10 +106,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\a3c9383d4825e7b9ed2e19a549bd2ef0315c5990\\Views_SignUpForm.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\interfaz\\interrfazlogin\\loginifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\interrfazlogin\\loginifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,24 +114,12 @@
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|a:\\dev\\proyectos\\mi proyecto\\escuelaconmaui\\escuelaconmaui\\models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -109,75 +129,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SignUpFormViewModel.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\SignUpFormViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\SignUpFormViewModel.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\SignUpFormViewModel.cs",
-              "RelativeToolTip": "ViewModels\\SignUpFormViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T14:22:31.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T00:40:21.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GeneralsIFunctions.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Interfaz\\GeneralsIFunctions.cs",
-              "RelativeDocumentMoniker": "Interfaz\\GeneralsIFunctions.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Interfaz\\GeneralsIFunctions.cs",
-              "RelativeToolTip": "Interfaz\\GeneralsIFunctions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:53:57.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GeneralsFunctions.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\GeneralsFunctions.cs",
-              "RelativeDocumentMoniker": "Services\\ServicesLogIn\\GeneralsFunctions.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\GeneralsFunctions.cs",
-              "RelativeToolTip": "Services\\ServicesLogIn\\GeneralsFunctions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T02:55:27.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T23:13:05.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -185,150 +141,108 @@
               "RelativeToolTip": "AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T05:53:45.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T05:53:45.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwEoAAABEAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SignUpFormViewModel.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\SignUpFormViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SignUpFormViewModel.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\SignUpFormViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SignUpFormViewModel.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAA0wEsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:27:35.953Z"
+              "WhenOpened": "2025-02-11T14:22:31.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonAbstractModels.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\PersonAbstractModels.cs",
-              "RelativeDocumentMoniker": "Models\\PersonAbstractModels.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\PersonAbstractModels.cs",
-              "RelativeToolTip": "Models\\PersonAbstractModels.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T21:43:13.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T18:35:01.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentsModels.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\StudentsModels.cs",
-              "RelativeDocumentMoniker": "Models\\StudentsModels.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\StudentsModels.cs",
-              "RelativeToolTip": "Models\\StudentsModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "AbstractBaseClass.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\AbstractBaseClass.cs",
+              "RelativeDocumentMoniker": "Models\\AbstractBaseClass.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\AbstractBaseClass.cs",
+              "RelativeToolTip": "Models\\AbstractBaseClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T21:40:44.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T20:23:53.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TeachersModels.cs",
               "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\TeachersModels.cs",
               "RelativeDocumentMoniker": "Models\\TeachersModels.cs",
               "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\TeachersModels.cs",
               "RelativeToolTip": "Models\\TeachersModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T21:40:36.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignUpForm.xaml",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml",
-              "RelativeDocumentMoniker": "Views\\SignUpForm.xaml",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml",
-              "RelativeToolTip": "Views\\SignUpForm.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T14:21:54.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignUpForm.xaml.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\SignUpForm.xaml.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml.cs",
-              "RelativeToolTip": "Views\\SignUpForm.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SQLLiteHelper.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Helpers\\SQLLiteHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\SQLLiteHelper.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Helpers\\SQLLiteHelper.cs",
+              "RelativeToolTip": "Helpers\\SQLLiteHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T14:24:06.683Z"
+              "WhenOpened": "2025-02-19T00:56:32.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": ".gitignore",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-30T06:31:01.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T00:52:03.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml",
-              "RelativeDocumentMoniker": "Views\\Login.xaml",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml",
-              "RelativeToolTip": "Views\\Login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-30T06:30:38.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginFunctions.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
-              "RelativeDocumentMoniker": "Services\\ServicesLogIn\\LoginFunctions.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
-              "RelativeToolTip": "Services\\ServicesLogIn\\LoginFunctions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "SQLLiteBase.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Helpers\\SQLLiteBase.cs",
+              "RelativeDocumentMoniker": "Helpers\\SQLLiteBase.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Helpers\\SQLLiteBase.cs",
+              "RelativeToolTip": "Helpers\\SQLLiteBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T00:42:24.251Z"
+              "WhenOpened": "2025-02-19T01:30:04.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml.cs",
-              "RelativeToolTip": "Views\\Login.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FileAccesHelper.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Helpers\\FileAccesHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\FileAccesHelper.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Helpers\\FileAccesHelper.cs",
+              "RelativeToolTip": "Helpers\\FileAccesHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:31:02.282Z"
+              "WhenOpened": "2025-02-20T03:02:35.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
+              "Title": "TeachersServices.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\TeachersServices.cs",
+              "RelativeDocumentMoniker": "Services\\TeachersServices.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\TeachersServices.cs",
+              "RelativeToolTip": "Services\\TeachersServices.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvw4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:29:49.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Rama.cs",
               "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Enums\\Rama.cs",
               "RelativeDocumentMoniker": "Enums\\Rama.cs",
@@ -340,7 +254,199 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITeachers.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Interfaz\\ITeachers.cs",
+              "RelativeDocumentMoniker": "Interfaz\\ITeachers.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Interfaz\\ITeachers.cs",
+              "RelativeToolTip": "Interfaz\\ITeachers.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:30:56.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUpForm.xaml",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml",
+              "RelativeDocumentMoniker": "Views\\SignUpForm.xaml",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml",
+              "RelativeToolTip": "Views\\SignUpForm.xaml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T14:21:54.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUpForm.xaml.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SignUpForm.xaml.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\SignUpForm.xaml.cs",
+              "RelativeToolTip": "Views\\SignUpForm.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T14:24:06.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBYAAACnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T00:40:21.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentsModels.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\StudentsModels.cs",
+              "RelativeDocumentMoniker": "Models\\StudentsModels.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\StudentsModels.cs",
+              "RelativeToolTip": "Models\\StudentsModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:40:44.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0oAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T20:27:35.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T23:13:05.016Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "GlobalUsing.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\GlobalUsing.cs",
+              "RelativeToolTip": "GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:27:25.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GeneralsFunctions.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\GeneralsFunctions.cs",
+              "RelativeDocumentMoniker": "Services\\ServicesLogIn\\GeneralsFunctions.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\GeneralsFunctions.cs",
+              "RelativeToolTip": "Services\\ServicesLogIn\\GeneralsFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:55:27.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoursesModels.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\CoursesModels.cs",
+              "RelativeDocumentMoniker": "Models\\CoursesModels.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\CoursesModels.cs",
+              "RelativeToolTip": "Models\\CoursesModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:41:57.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GeneralsIFunctions.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Interfaz\\GeneralsIFunctions.cs",
+              "RelativeDocumentMoniker": "Interfaz\\GeneralsIFunctions.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Interfaz\\GeneralsIFunctions.cs",
+              "RelativeToolTip": "Interfaz\\GeneralsIFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:53:57.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": ".gitignore",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-30T06:31:01.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T00:52:03.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Views\\Login.xaml",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml",
+              "RelativeToolTip": "Views\\Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-30T06:30:38.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginFunctions.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
+              "RelativeDocumentMoniker": "Services\\ServicesLogIn\\LoginFunctions.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
+              "RelativeToolTip": "Services\\ServicesLogIn\\LoginFunctions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T00:42:24.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
+              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "Views\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:31:02.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Views_SignUpForm.xaml.sg.cs",
               "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\a3c9383d4825e7b9ed2e19a549bd2ef0315c5990\\Views_SignUpForm.xaml.sg.cs",
               "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\a3c9383d4825e7b9ed2e19a549bd2ef0315c5990\\Views_SignUpForm.xaml.sg.cs",
@@ -350,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "LoginIFunctions.cs",
               "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Interfaz\\InterrfazLogIn\\LoginIFunctions.cs",
               "RelativeDocumentMoniker": "Interfaz\\InterrfazLogIn\\LoginIFunctions.cs",
@@ -362,31 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GlobalUsing.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\GlobalUsing.cs",
-              "RelativeDocumentMoniker": "GlobalUsing.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\GlobalUsing.cs",
-              "RelativeToolTip": "GlobalUsing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:27:25.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T18:35:01.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -394,12 +476,11 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T00:45:33.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T00:45:33.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "EscuelaConMaui.csproj",
               "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\EscuelaConMaui.csproj",
               "RelativeDocumentMoniker": "EscuelaConMaui.csproj",
@@ -408,18 +489,6 @@
               "ViewState": "AgIAAAkAAAAAAAAAAADgvxcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-24T18:50:40.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CoursesModels.cs",
-              "DocumentMoniker": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\CoursesModels.cs",
-              "RelativeDocumentMoniker": "Models\\CoursesModels.cs",
-              "ToolTip": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\Models\\CoursesModels.cs",
-              "RelativeToolTip": "Models\\CoursesModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T21:41:57.262Z"
             }
           ]
         }

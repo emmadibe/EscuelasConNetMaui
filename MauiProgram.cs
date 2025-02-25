@@ -15,8 +15,10 @@ namespace EscuelaConMaui
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            //SQL Lite
+            string dbPath = FileAccesHelper.GetPathFile("EscuelasNetMaui.db");
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

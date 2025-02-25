@@ -18,18 +18,22 @@
     <VerticalStackLayout x:DataType="vm:SignUpFormViewModel" >
       <!--con x:DataType estoy diciendo que las propiedades y métodos-comandos mencionados dentro de la etiqueta VerticalStackLayouts pertencerán a la clase SignUpFormViewModel, la cual se halla dentro de la carpeta que abrevié vm.-->
 
-        <Entry Placeholder="Nombre" x:Name="nombreEntry"/>
-        <Entry Placeholder="Contraseña" x:Name="passwordEntry" IsPassword="True"/>
+        <Entry Placeholder="Nombre" Text="{Binding Name}" x:Name="nombreEntry"/>
+        <Entry Placeholder="LastName" Text="{Binding LastName}" x:Name="LastNameEntry"/>
+        <Entry Placeholder="Contraseña" Text="{Binding Password}" x:Name="passwordEntry" IsPassword="True"/>
 
         <Picker Title="Selecciona tu edad"
                 ItemsSource="{Binding Ages}"
-                SelectedItem="{Binding Age}"/>
+                SelectedItem="{Binding Age}"
+                />
 
         <Picker Title="Selecciona una rama"
                 ItemsSource="{Binding Ramas}"
                 SelectedItem="{Binding RamaSeleccionada}"/>
 
         <Button Text="SignUp" Command="{Binding SignUpCommand}"/>
+
+        <Label Text="{Binding Id}"/>
 
         <CollectionView ItemsSource="{Binding Errors}">
             <CollectionView.ItemTemplate>

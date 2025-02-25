@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using EscuelaConMaui.Enums;
+using EscuelaConMaui.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -10,14 +11,29 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using MaxLengthAttribute = System.ComponentModel.DataAnnotations.MaxLengthAttribute;
 
-namespace EscuelaConMaui.ViewModels
-{
+namespace EscuelaConMaui.ViewModels;
+    [QueryProperty("Name","Name")]
+    [QueryProperty("LastName", "LastName")]
+    [QueryProperty("Age", "Age")]
+    [QueryProperty("Email", "Email")]
+    [QueryProperty("Id", "Id")]
     public partial class SignUpFormViewModel : ObservableValidator //La clase ObservableValidator extiende de ObservableObject. Por lo tanto, esta clase, que me la proporciona el toolkit de MVVM, va a tener los métodos y propiedades de su padre más otros que me permitirán realizar validaciones. Por ejemplo, posee las propiedades Required y MaxLength.
     {
+        // INYECCÏÓN DE DEPENDENCIAS:
+        private readonly ITeachers _teachersService; //Como voy a implementar métodos de la clase TeachersService (B) en SignUpFormViewModel (A), me conviene, para  que A no dependa directamente de B, codificar la definición dél método en una interfaz ITeachers e implementarlo en TeachersService. En SignUpFormViewModel, no creo una instancia de B, sino que accedo a sus méodos a partir de la interfaz. Entonces, A no depende de B directamente, sino a través de la interfaz. Así, si yo modifio B, no afecta a A. 
+        //Podré acceder al méotodo Add(), para agregar un teacher a la base de dato. Lo haré desde el método SignUp. 
         private readonly GeneralsIFunctions generals; //Mis otras dependencias.
 
-        //PROPIEDADES:
+    //PROPIEDADES:
+
+        [ObservableProperty]
+        private int id;
+
+        [ObservableProperty]
+        private string resultado = "";
         public ObservableCollection<string> Errors { get; set; } = new(); //Es una colección, de tipo ObservableCollection (colección que me la da el toolkit) que almacena strings. O sea, cada elemento de la colección es un string. Ese string representa un error. Como puede haber más de un error es que necesito que sea una colección. En efecto, un campo puede no pasar la validación Required ni tampoco la MaxLength. 
 
         private string? _name;
@@ -39,6 +55,19 @@ namespace EscuelaConMaui.ViewModels
             set => SetProperty(ref _lastName, value, true);
         }
 
+        private string? _password;
+        public string Password
+        {
+            get => _password;
+            set
+            {
+                if(value != _password)
+                {
+                    _password = value;
+                }
+            }
+        }
+
         private int _age;
         public int Age
         {
@@ -52,7 +81,19 @@ namespace EscuelaConMaui.ViewModels
                 }
             }
         }
-        [Required(ErrorMessage = "Campo obligatorio")]
+
+        private string _email = "";
+        public string Email
+        {
+            get => _email;
+            set
+            {
+                if (value != _email)
+                {
+                    _email = value;
+                }
+            }
+        }
 
         public List<int> Ages => Enumerable.Range(18, 120).ToList();
 
@@ -82,12 +123,13 @@ namespace EscuelaConMaui.ViewModels
         { 
             this.generals = App.Current.Services.GetRequiredService<GeneralsIFunctions>();
             //Dado que voy a utiliar un método que está en la clase GeneralFunctions (OnPropertyChanged)es una buena práctica hacer inyección de dependencias para que la clase SignUpFormViewModel NO dependa directamente de GeneralFUnctions, sino de la interfaz que tiene la definición de su método (GeneralIFunctions). 
+            this._teachersService = App.Current.Services.GetRequiredService<ITeachers>(); //Inyecto la dependencia. 
         }
 
 
 
         [RelayCommand]
-        public async Task SignUp()
+        public async Task SignUp(TeachersModels Teacher)
         {
             ValidateAllProperties(); //Valida todas las Data Annotations. 
             Errors.Clear(); //Si hay algún error anterior, lo quito. 
@@ -95,7 +137,13 @@ namespace EscuelaConMaui.ViewModels
             GetErrors(nameof(LastName)).ToList().ForEach(f => Errors.Add("Apellido: " + f.ErrorMessage));
             GetErrors(nameof(RamaSeleccionada)).ToList().ForEach(f => Errors.Add("Rama: " + f.ErrorMessage ));
             GetErrors(nameof(Age)).ToList().ForEach(f => Errors.Add("Edad: " + f.ErrorMessage));
-        }
+
+            if (Errors.Count > 0) return; //Pues, si hay un error debo terminar el método para que no se guarde a un nuevo docente. 
+
+            Id = await _teachersService.InsertTeacher(new TeachersModels { Name = Name, LastName = LastName, Age = Age, Rama = RamaSeleccionada});
+
+            Resultado = $" Registro id:{Id}";
+    }
 
     }
-}
+

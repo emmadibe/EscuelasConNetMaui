@@ -7,7 +7,14 @@ using EscuelaConMaui.Models;
 
 namespace EscuelaConMaui.Models
 {
-    public class StudentsModels : PersonAbstractModels //hereda de Person. 
+    public class StudentsModels : AbstractBaseClass //hereda de Person. 
     {
+        [MaxLength(30)]
+        protected string? Name { get; set; }
+        [MaxLength(30)]
+
+        protected string? LastName { get; set; }
+        protected int? Age { get; set; }
+        protected string? Email { get; set; }
     }
 }
