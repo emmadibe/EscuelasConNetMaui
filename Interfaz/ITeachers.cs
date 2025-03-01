@@ -15,5 +15,7 @@ namespace EscuelaConMaui.Interfaz
         public Task<int> DeleteTeacher(TeachersModels teacher);
         public Task<int> UpdateTeacher(TeachersModels teacher);
 
+        public int ExistsTeacher(TeachersModels instance);
+
     }
 }

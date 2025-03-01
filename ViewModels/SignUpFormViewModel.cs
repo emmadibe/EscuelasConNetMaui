@@ -34,7 +34,7 @@ namespace EscuelaConMaui.ViewModels;
 
         [ObservableProperty]
         private string resultado = "";
-        public ObservableCollection<string> Errors { get; set; } = new(); //Es una colección, de tipo ObservableCollection (colección que me la da el toolkit) que almacena strings. O sea, cada elemento de la colección es un string. Ese string representa un error. Como puede haber más de un error es que necesito que sea una colección. En efecto, un campo puede no pasar la validación Required ni tampoco la MaxLength. 
+        public ObservableCollection<string> Errors { get; set; } = new(); //Es una colección, de tipo ObservableCollection (colección que me la da el toolkit, muy similar a una colección List) que almacena strings. O sea, cada elemento de la colección es un string. Ese string representa un error. Como puede haber más de un error es que necesito que sea una colección. En efecto, un campo puede no pasar la validación Required ni tampoco la MaxLength. 
 
         private string? _name;
         [Required (ErrorMessage ="Campo obligatorio")]
@@ -126,8 +126,6 @@ namespace EscuelaConMaui.ViewModels;
             this._teachersService = App.Current.Services.GetRequiredService<ITeachers>(); //Inyecto la dependencia. 
         }
 
-
-
         [RelayCommand]
         public async Task SignUp(TeachersModels Teacher)
         {
@@ -140,10 +138,19 @@ namespace EscuelaConMaui.ViewModels;
 
             if (Errors.Count > 0) return; //Pues, si hay un error debo terminar el método para que no se guarde a un nuevo docente. 
 
-            Id = await _teachersService.InsertTeacher(new TeachersModels { Name = Name, LastName = LastName, Age = Age, Rama = RamaSeleccionada});
+            Id = await _teachersService.InsertTeacher(new TeachersModels { Name = Name, LastName = LastName, Password = Password, Email = Email, Age = Age, Rama = RamaSeleccionada});
 
             Resultado = $" Registro id:{Id}";
-    }
+
+            await Shell.Current.GoToAsync("Login"); //Con el método GoToAsync puedo navegar a otra vista cuya ruta haya codificado en la clase AppShell. Por eso es tan importante configurar la ruta. 
+        }
+
+        [RelayCommand]
+        public async Task Back()
+        {
+            await Shell.Current.GoToAsync("///Login"); //Las tres rayitas lo que hacen es forzar la navegación. Pues, al no estar en el orden predilecto de las rutas en AppShell ir del SignUpForm de vuelta a Login, debo forzar ese reedireccionamiento. 
+            //Current es una propiedad de la clase Shell que me da acceso a la instancia actual (por eso Current) de la clase Shell que está manejando la navegación de mi app. 
+        }
 
     }
 

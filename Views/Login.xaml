@@ -11,9 +11,11 @@
 
 
    <VerticalStackLayout x:DataType="vm:LoginViewModel">
-        <Entry Placeholder="Nombre" x:Name="nombreEntry"/>
-        <Entry Placeholder="Contraseña" x:Name="passwordEntry" IsPassword="True"/>
+        <Entry Placeholder="Nombre" Text="{Binding Name}" x:Name="nombreEntry"/>
+        <Entry Placeholder="Contraseña" Text="{Binding Password}" x:Name="passwordEntry" IsPassword="True"/>
 
         <Button Text="Login" Command="{Binding logueInCommand}"/>
+        
+        <Button Text="SignUp" Command="{Binding SignUpCommand}"/>
     </VerticalStackLayout>
 </ContentPage>

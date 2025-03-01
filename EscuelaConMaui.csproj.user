@@ -6,10 +6,16 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Views\CoursesViews\CreateCourse.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Login.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\SignUpForm.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\TeachersViews\MainTeacherMenu.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

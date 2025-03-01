@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using EscuelaConMaui.Models;
+
+namespace EscuelaConMaui.Services.DataBase
+{
+    public class DataBaseInitializer : IDataBaseInitializer //Implemento la interfaz para aplicar inyección de dependencias.
+    {
+        private readonly SQLiteConnection _connection;
+
+        public DataBaseInitializer()
+        {
+            string dbPath = Path.Combine(FileSystem.AppDataDirectory, "EscuelasNetMaui.db");
+            _connection = new SQLiteConnection(dbPath); //Ni bien instancio la clase inicializo a _connection (instancia de SQLiteConnection). Necesito acceder a sus métodos en Initialize()
+        }
+
+        public void Initialize()
+        {
+            _connection.CreateTable<TeachersModels>();
+            _connection.CreateTable<CoursesModels>();
+           // _connection.CreateTable<StudentsModels>();
+        }
+    }
+}

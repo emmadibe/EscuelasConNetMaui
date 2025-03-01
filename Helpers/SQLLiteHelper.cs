@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EscuelaConMaui.Models;
+using EscuelaConMaui.Services.DataBase;
 using SQLite;
 
 namespace EscuelaConMaui.Helpers
@@ -32,6 +33,10 @@ namespace EscuelaConMaui.Helpers
 
         public T Get(int ID)
             => _connection.Table<T>().Where(WaitCallback => WaitCallback.Id == ID).FirstOrDefault();
+
+        public TableQuery<T> returnTableQuery(T t)
+            => _connection.Table<T>();
+
     }
 
 

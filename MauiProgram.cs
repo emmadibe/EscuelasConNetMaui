@@ -16,7 +16,9 @@ namespace EscuelaConMaui
                 });
 
             //SQL Lite
-            string dbPath = FileAccesHelper.GetPathFile("EscuelasNetMaui.db");
+            string dbPath = FileAccesHelper.GetPathFile("EscuelasNetMaui.db"); //Accedo al archivo de la base de datos
+            ///
+
 #if DEBUG
             builder.Logging.AddDebug();
 #endif

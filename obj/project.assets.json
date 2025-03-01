@@ -37141,24 +37141,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\cdibe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\EscuelaConMaui.csproj",
+      "projectUniqueName": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\EscuelaConMaui.csproj",
       "projectName": "EscuelaConMaui",
-      "projectPath": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\EscuelaConMaui.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "A:\\Dev\\Proyectos\\mi proyecto\\EscuelaConMAUI\\EscuelaConMaui\\obj\\",
+      "projectPath": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\EscuelaConMaui.csproj",
+      "packagesPath": "C:\\Users\\cdibe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cdibe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

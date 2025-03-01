@@ -1,7 +1,10 @@
 ﻿
 using EscuelaConMaui.Interfaz.InterrfazLogIn;
+using EscuelaConMaui.Services.DataBase;
 using EscuelaConMaui.Services.ServicesLogIn;
 using EscuelaConMaui.ViewModels;
+using EscuelaConMaui.ViewModels.CoursesViewModels;
+using EscuelaConMaui.Views.CoursesViews;
 
 namespace EscuelaConMaui
 {
@@ -23,13 +26,20 @@ namespace EscuelaConMaui
             services.AddSingleton<ITeachers, TeachersServices>(); //Inyecto los métodos de la interfaz ITeachers cuya implementación está en la clase TeachersService. 
             services.AddSingleton<LoginIFunctions, LoginFunctions>();//Quiero acceder a la función de la interfaz LoginIFunctions con la implementación de LoginFunctions.  
             services.AddSingleton<GeneralsIFunctions, GeneralsFunctions>(); //Quiero acceder a las funciones definidas en la interfaz GeneralIFunctions, con las implementaciones que están en la clase GeneralFunctions. 
+            services.AddSingleton<IDataBaseInitializer, DataBaseInitializer>(); //Quiero acceder a los métodos definidos en la interfaz IDataBaseInitializer con implementación de la clase DataBaseInitializer.
+            services.AddSingleton<SQLLiteBase>();  
+            services.AddSingleton<ICourses, CoursesServices>();
 
             //ViewModels:
             services.AddTransient<LoginViewModel>();
             services.AddTransient<SignUpFormViewModel>();
+            services.AddTransient<MainTeacherMenuViewModel>();
+            services.AddTransient<CreateCourseViewModels>();
+
             //Views:
             services.AddSingleton<Login>();
             services.AddSingleton<SignUpForm>();
+            services.AddSingleton<CreateCourse>();
 
             return services.BuildServiceProvider();
         }
