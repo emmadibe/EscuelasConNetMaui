@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-01T19:21:44.494</Modified>
+      <Modified>2025-03-05T03:22:57.535</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-02-28T16:02:04.820</Modified>
+      <Modified>2025-03-05T01:16:22.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EscuelaConMaui.runtimeconfig.json">
       <PackagePath>EscuelaConMaui.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EscuelaConMaui.dll">
       <PackagePath>EscuelaConMaui.dll</PackagePath>
-      <Modified>2025-03-01T19:21:42.103</Modified>
+      <Modified>2025-03-05T03:22:55.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EscuelaConMaui.exe</PackagePath>
-      <Modified>2025-03-01T19:21:42.181</Modified>
+      <Modified>2025-03-05T03:22:56.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -292,7 +292,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cdibe\OneDrive\Escritorio\Emma\programacion\EscuelaConNetMaui\EscuelasConNetMaui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EscuelaConMaui.deps.json">
       <PackagePath>EscuelaConMaui.deps.json</PackagePath>
-      <Modified>2025-02-28T16:02:04.233</Modified>
+      <Modified>2025-03-05T01:16:22.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cdibe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

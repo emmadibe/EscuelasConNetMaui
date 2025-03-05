@@ -62,7 +62,7 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
             get => _description;
             set => SetProperty(ref _description, value, true);
         }
-        public string LabelCreateCourseDescription
+        public string LabelCreateCourseDescription  //Pongo los datos del docente. 
         {
             get => SessionData.SessionName != null ? $"ID: {SessionData.SessionId}\n Name: {SessionData.SessionName} {SessionData.SessionLastName}\n Age: {SessionData.SessionAge}\n Email: {SessionData.SessionEmail}\n " : "Cargando";
             set

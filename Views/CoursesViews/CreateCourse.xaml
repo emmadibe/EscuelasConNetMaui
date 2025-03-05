@@ -17,7 +17,7 @@
         <Entry Placeholder="School" Text="{Binding School}" x:Name="schoolEntry"/>
         <Entry Placeholder="Subject" Text="{Binding Subject}" x:Name="subjectEntry"/>
         
-        <Editor  Placeholder="Descripción del curso..." HeightRequest="200" AutoSize="TextChanges" Text="{Binding Description}" />
+        <Editor  Placeholder="Descripción del curso..." HeightRequest="70" AutoSize="TextChanges" Text="{Binding Description}" />
 
         <Button Text="Create" Command="{Binding CreateCourseCommand}"/>
         <Button Text="Back" Command="{Binding BackCommand}"/>

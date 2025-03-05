@@ -142,7 +142,7 @@ namespace EscuelaConMaui.ViewModels;
 
             Resultado = $" Registro id:{Id}";
 
-            await Shell.Current.GoToAsync("Login"); //Con el método GoToAsync puedo navegar a otra vista cuya ruta haya codificado en la clase AppShell. Por eso es tan importante configurar la ruta. 
+            await Shell.Current.GoToAsync("///Login"); //Con el método GoToAsync puedo navegar a otra vista cuya ruta haya codificado en la clase AppShell. Por eso es tan importante configurar la ruta. 
         }
 
         [RelayCommand]

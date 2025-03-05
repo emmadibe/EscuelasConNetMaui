@@ -18,7 +18,7 @@ namespace EscuelaConMaui.Helpers
         //En esta clase genérica implemento los métodos genéricos de mi CRUD. 
         //Este método me sirve para cualquier tabla de mi bdd. Por eso es genérico. Al ser T una extensión de la clase abstracta AbstractBaseClass, tiene todos los campos comunes a todas las tables, como id. 
         public List<T> GetAllData()
-            => _connection.Table<T>().ToList();
+            => _connection.Table<T>().ToList(); //Me retorna una lista. Una lista de cursos, por ejemplo, en donde cada elemento de la colección List es una instancia de CourseModels.
         public int Add(T row)
         {
             _connection.Insert(row);

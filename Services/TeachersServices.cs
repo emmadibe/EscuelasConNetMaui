@@ -8,7 +8,7 @@ using EscuelaConMaui.Models;
 
 namespace EscuelaConMaui.Services
 {
-    internal class TeachersServices : ITeachers
+    public class TeachersServices : ITeachers
     {
         private readonly SQLLiteHelper<TeachersModels> db; //Propiedad, otorgada por el kit sqllite, que me permite conectarme a la base de datos. 
 

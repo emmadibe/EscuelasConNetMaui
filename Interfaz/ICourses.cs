@@ -14,6 +14,7 @@ namespace EscuelaConMaui.Interfaz
         public Task<int> InsertCourse(CoursesModels courses);
         public Task<int> DeleteCourse(CoursesModels courses);
         public Task<int> UpdateCourse(CoursesModels courses);
+        public Task<List<CoursesModels>> GetAllCoursesByMyTeacher(int myTeacherId);
 
     }
 }

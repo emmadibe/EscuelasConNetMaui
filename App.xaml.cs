@@ -4,7 +4,9 @@ using EscuelaConMaui.Services.DataBase;
 using EscuelaConMaui.Services.ServicesLogIn;
 using EscuelaConMaui.ViewModels;
 using EscuelaConMaui.ViewModels.CoursesViewModels;
+using EscuelaConMaui.ViewModels.StudentsViewModels;
 using EscuelaConMaui.Views.CoursesViews;
+using EscuelaConMaui.Views.StudentsViews;
 
 namespace EscuelaConMaui
 {
@@ -29,17 +31,22 @@ namespace EscuelaConMaui
             services.AddSingleton<IDataBaseInitializer, DataBaseInitializer>(); //Quiero acceder a los métodos definidos en la interfaz IDataBaseInitializer con implementación de la clase DataBaseInitializer.
             services.AddSingleton<SQLLiteBase>();  
             services.AddSingleton<ICourses, CoursesServices>();
+            services.AddSingleton<IStudents, StudentsService>();
 
             //ViewModels:
             services.AddTransient<LoginViewModel>();
             services.AddTransient<SignUpFormViewModel>();
             services.AddTransient<MainTeacherMenuViewModel>();
             services.AddTransient<CreateCourseViewModels>();
+            services.AddTransient<ShowCourseViewModels>();
+            services.AddTransient<AddStudentViewModels>();
 
             //Views:
             services.AddSingleton<Login>();
             services.AddSingleton<SignUpForm>();
             services.AddSingleton<CreateCourse>();
+            services.AddSingleton<ShowCourse>();
+            services.AddSingleton<AddStudent>();
 
             return services.BuildServiceProvider();
         }

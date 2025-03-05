@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\studentsviewmodels\\addstudentviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\studentsviewmodels\\addstudentviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\studentsviews\\addstudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\studentsviews\\addstudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\coursesviewmodels\\createcourseviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\coursesviewmodels\\createcourseviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,100 +19,140 @@
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\coursesviews\\createcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\coursesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\coursesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\serviceslogin\\loginfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\serviceslogin\\loginfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\interfaz\\iteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\iteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\interfaz\\icourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\icourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\teachersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\teachersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\studentsviews\\addstudent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\studentsviews\\addstudent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\signupform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\signupform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\teachersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\teachersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\interfaz\\istudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\istudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\teachersviewmodels\\mainteachermenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\teachersviewmodels\\mainteachermenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\interfaz\\iteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\iteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\teachersviews\\mainteachermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\teachersviews\\mainteachermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\coursesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\coursesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\teachersviews\\mainteachermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\teachersviews\\mainteachermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\sessiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:sessiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\coursesviewmodels\\showcourseviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\coursesviewmodels\\showcourseviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\models\\teachersmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\teachersmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\coursesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\helpers\\fileacceshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:helpers\\fileacceshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\teachersviewmodels\\mainteachermenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\teachersviewmodels\\mainteachermenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\coursesviews\\showcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\coursesviews\\showcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\coursesviews\\showcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\coursesviews\\showcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\mycurrentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:mycurrentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\sessiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:sessiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\signupform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:escuelaconmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\signupformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\teachersviews\\mainteachermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\teachersviews\\mainteachermenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\signupform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\signupform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\teachersviews\\mainteachermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\teachersviews\\mainteachermenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\interfaz\\icourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:interfaz\\icourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\models\\teachersmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\teachersmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\helpers\\sqllitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:helpers\\sqllitehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\serviceslogin\\loginfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\serviceslogin\\loginfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\helpers\\fileacceshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:helpers\\fileacceshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\models\\abstractbaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,24 +174,12 @@
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\services\\database\\sqllitebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:services\\database\\sqllitebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:models\\studentsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193CA5D-9FBC-45E7-BAA3-01540BEA6C0C}|EscuelaConMaui.csproj|c:\\users\\cdibe\\onedrive\\escritorio\\emma\\programacion\\escuelaconnetmaui\\escuelasconnetmaui\\interfaz\\idatabaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -172,17 +208,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddStudent.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\StudentsViews\\AddStudent.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\StudentsViews\\AddStudent.xaml.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\StudentsViews\\AddStudent.xaml.cs",
+              "RelativeToolTip": "Views\\StudentsViews\\AddStudent.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:02:37.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddStudentViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\StudentsViewModels\\AddStudentViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\StudentsViewModels\\AddStudentViewModels.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\StudentsViewModels\\AddStudentViewModels.cs",
+              "RelativeToolTip": "ViewModels\\StudentsViewModels\\AddStudentViewModels.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:03:06.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateCourse.xaml",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\CreateCourse.xaml",
+              "RelativeDocumentMoniker": "Views\\CoursesViews\\CreateCourse.xaml",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\CreateCourse.xaml",
+              "RelativeToolTip": "Views\\CoursesViews\\CreateCourse.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-28T15:57:46.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddStudent.xaml",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\StudentsViews\\AddStudent.xaml",
+              "RelativeDocumentMoniker": "Views\\StudentsViews\\AddStudent.xaml",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\StudentsViews\\AddStudent.xaml",
+              "RelativeToolTip": "Views\\StudentsViews\\AddStudent.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T01:02:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CreateCourseViewModels.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\CoursesViewModels\\CreateCourseViewModels.cs",
               "RelativeDocumentMoniker": "ViewModels\\CoursesViewModels\\CreateCourseViewModels.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\CoursesViewModels\\CreateCourseViewModels.cs*",
-              "RelativeToolTip": "ViewModels\\CoursesViewModels\\CreateCourseViewModels.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwDgAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\CoursesViewModels\\CreateCourseViewModels.cs",
+              "RelativeToolTip": "ViewModels\\CoursesViewModels\\CreateCourseViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T15:51:41.518Z",
               "EditorCaption": ""
@@ -190,55 +278,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCcAAAAWAAAAAAAAAA==",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAvwCEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T23:13:05.016Z"
+              "WhenOpened": "2025-02-16T00:40:21.679Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginFunctions.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
-              "RelativeDocumentMoniker": "Services\\ServicesLogIn\\LoginFunctions.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
-              "RelativeToolTip": "Services\\ServicesLogIn\\LoginFunctions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "StudentsService.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\StudentsService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentsService.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\StudentsService.cs",
+              "RelativeToolTip": "Services\\StudentsService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T00:42:24.251Z"
+              "WhenOpened": "2025-03-05T02:55:16.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "TeachersServices.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\TeachersServices.cs",
+              "RelativeDocumentMoniker": "Services\\TeachersServices.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\TeachersServices.cs",
+              "RelativeToolTip": "Services\\TeachersServices.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:29:49.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IStudents.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\IStudents.cs",
+              "RelativeDocumentMoniker": "Interfaz\\IStudents.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\IStudents.cs",
+              "RelativeToolTip": "Interfaz\\IStudents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:52:58.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ITeachers.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\ITeachers.cs",
               "RelativeDocumentMoniker": "Interfaz\\ITeachers.cs",
               "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\ITeachers.cs",
               "RelativeToolTip": "Interfaz\\ITeachers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:30:56.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateCourse.xaml",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\CreateCourse.xaml",
-              "RelativeDocumentMoniker": "Views\\CoursesViews\\CreateCourse.xaml",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\CreateCourse.xaml*",
-              "RelativeToolTip": "Views\\CoursesViews\\CreateCourse.xaml*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-28T15:57:46.95Z",
+              "WhenOpened": "2025-02-18T20:30:56.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "StudentsModels.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\StudentsModels.cs",
+              "RelativeDocumentMoniker": "Models\\StudentsModels.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\StudentsModels.cs",
+              "RelativeToolTip": "Models\\StudentsModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:40:44.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShowCourseViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\CoursesViewModels\\ShowCourseViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CoursesViewModels\\ShowCourseViewModels.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\CoursesViewModels\\ShowCourseViewModels.cs",
+              "RelativeToolTip": "ViewModels\\CoursesViewModels\\ShowCourseViewModels.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAA4wBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:12:05.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CoursesServices.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\CoursesServices.cs",
+              "RelativeDocumentMoniker": "Services\\CoursesServices.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\CoursesServices.cs",
+              "RelativeToolTip": "Services\\CoursesServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAD5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:31:28.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CoursesModels.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\CoursesModels.cs",
+              "RelativeDocumentMoniker": "Models\\CoursesModels.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\CoursesModels.cs",
+              "RelativeToolTip": "Models\\CoursesModels.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:41:57.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShowCourse.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\ShowCourse.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CoursesViews\\ShowCourse.xaml.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\ShowCourse.xaml.cs",
+              "RelativeToolTip": "Views\\CoursesViews\\ShowCourse.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:14:29.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAArwEoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T20:27:35.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainTeacherMenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDQAAAA1AQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:16:50.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ShowCourse.xaml",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\ShowCourse.xaml",
+              "RelativeDocumentMoniker": "Views\\CoursesViews\\ShowCourse.xaml",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\CoursesViews\\ShowCourse.xaml",
+              "RelativeToolTip": "Views\\CoursesViews\\ShowCourse.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T23:09:43.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "SignUpForm.xaml",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\SignUpForm.xaml",
               "RelativeDocumentMoniker": "Views\\SignUpForm.xaml",
@@ -251,91 +459,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CoursesModels.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\CoursesModels.cs",
-              "RelativeDocumentMoniker": "Models\\CoursesModels.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\CoursesModels.cs",
-              "RelativeToolTip": "Models\\CoursesModels.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "SessionData.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\SessionData.cs",
+              "RelativeDocumentMoniker": "SessionData.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\SessionData.cs",
+              "RelativeToolTip": "SessionData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T21:41:57.262Z"
+              "WhenOpened": "2025-02-28T16:22:27.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CoursesServices.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\CoursesServices.cs",
-              "RelativeDocumentMoniker": "Services\\CoursesServices.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\CoursesServices.cs",
-              "RelativeToolTip": "Services\\CoursesServices.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "MyCurrentCourse.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\MyCurrentCourse.cs",
+              "RelativeDocumentMoniker": "MyCurrentCourse.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\MyCurrentCourse.cs",
+              "RelativeToolTip": "MyCurrentCourse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T02:31:28.235Z"
+              "WhenOpened": "2025-03-05T01:30:35.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICourses.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\ICourses.cs",
-              "RelativeDocumentMoniker": "Interfaz\\ICourses.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\ICourses.cs",
-              "RelativeToolTip": "Interfaz\\ICourses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T02:23:41.533Z"
+              "WhenOpened": "2025-01-23T18:35:01.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TeachersServices.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\TeachersServices.cs",
-              "RelativeDocumentMoniker": "Services\\TeachersServices.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\TeachersServices.cs",
-              "RelativeToolTip": "Services\\TeachersServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:29:49.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "SignUpFormViewModel.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\SignUpFormViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\SignUpFormViewModel.cs",
               "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\SignUpFormViewModel.cs",
               "RelativeToolTip": "ViewModels\\SignUpFormViewModel.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAUwIUAAAAGAQAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAiwJAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T14:22:31.546Z"
+              "WhenOpened": "2025-02-11T14:22:31.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAvwB4AAAA/AAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "EscuelaConMaui.csproj",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\EscuelaConMaui.csproj",
+              "RelativeDocumentMoniker": "EscuelaConMaui.csproj",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\EscuelaConMaui.csproj",
+              "RelativeToolTip": "EscuelaConMaui.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T18:50:40.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T00:40:21.679Z"
+              "WhenOpened": "2025-01-26T23:13:05.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-30T06:31:01.155Z"
+              "DocumentIndex": 25,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T05:53:45.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
+              "Title": "MainTeacherMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
+              "RelativeToolTip": "Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:20:45.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\GlobalUsing.cs",
+              "RelativeToolTip": "GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:27:25.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "SignUpForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\SignUpForm.xaml.cs",
               "RelativeDocumentMoniker": "Views\\SignUpForm.xaml.cs",
@@ -343,71 +584,37 @@
               "RelativeToolTip": "Views\\SignUpForm.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T14:24:06.683Z"
+              "WhenOpened": "2025-02-11T14:24:06.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DataBaseInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\DataBase\\DataBaseInitializer.cs",
-              "RelativeDocumentMoniker": "Services\\DataBase\\DataBaseInitializer.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\DataBase\\DataBaseInitializer.cs",
-              "RelativeToolTip": "Services\\DataBase\\DataBaseInitializer.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T11:10:02.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "MainTeacherMenu.xaml",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\TeachersViews\\MainTeacherMenu.xaml",
               "RelativeDocumentMoniker": "Views\\TeachersViews\\MainTeacherMenu.xaml",
               "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\TeachersViews\\MainTeacherMenu.xaml",
               "RelativeToolTip": "Views\\TeachersViews\\MainTeacherMenu.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-26T11:46:33.008Z"
+              "WhenOpened": "2025-02-26T11:46:33.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainTeacherMenuViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
-              "RelativeToolTip": "ViewModels\\TeachersViewModels\\MainTeacherMenuViewModel.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwB4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "ICourses.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\ICourses.cs",
+              "RelativeDocumentMoniker": "Interfaz\\ICourses.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\ICourses.cs",
+              "RelativeToolTip": "Interfaz\\ICourses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:16:50.152Z"
+              "WhenOpened": "2025-03-01T02:23:41.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MainTeacherMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
-              "RelativeToolTip": "Views\\TeachersViews\\MainTeacherMenu.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:20:45.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SessionData.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\SessionData.cs",
-              "RelativeDocumentMoniker": "SessionData.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\SessionData.cs",
-              "RelativeToolTip": "SessionData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T16:22:27.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "TeachersModels.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\TeachersModels.cs",
               "RelativeDocumentMoniker": "Models\\TeachersModels.cs",
@@ -419,55 +626,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
+              "Title": "SQLLiteHelper.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Helpers\\SQLLiteHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\SQLLiteHelper.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Helpers\\SQLLiteHelper.cs",
+              "RelativeToolTip": "Helpers\\SQLLiteHelper.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T00:56:32.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
+              "RelativeDocumentMoniker": "Services\\ServicesLogIn\\LoginFunctions.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\ServicesLogIn\\LoginFunctions.cs",
+              "RelativeToolTip": "Services\\ServicesLogIn\\LoginFunctions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T00:42:24.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\Login.xaml",
               "RelativeDocumentMoniker": "Views\\Login.xaml",
               "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\Login.xaml",
               "RelativeToolTip": "Views\\Login.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwBQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-30T06:30:38.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EscuelaConMaui.csproj",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\EscuelaConMaui.csproj",
-              "RelativeDocumentMoniker": "EscuelaConMaui.csproj",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\EscuelaConMaui.csproj",
-              "RelativeToolTip": "EscuelaConMaui.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAADgvxkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-24T18:50:40.942Z"
+              "DocumentIndex": 35,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T06:31:01.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "DataBaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\DataBase\\DataBaseInitializer.cs",
+              "RelativeDocumentMoniker": "Services\\DataBase\\DataBaseInitializer.cs",
+              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\DataBase\\DataBaseInitializer.cs",
+              "RelativeToolTip": "Services\\DataBase\\DataBaseInitializer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T05:53:45.001Z"
+              "WhenOpened": "2025-02-25T11:10:02.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAEwEkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:27:35.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "FileAccesHelper.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Helpers\\FileAccesHelper.cs",
               "RelativeDocumentMoniker": "Helpers\\FileAccesHelper.cs",
@@ -479,19 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SQLLiteHelper.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Helpers\\SQLLiteHelper.cs",
-              "RelativeDocumentMoniker": "Helpers\\SQLLiteHelper.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Helpers\\SQLLiteHelper.cs",
-              "RelativeToolTip": "Helpers\\SQLLiteHelper.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T00:56:32.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 38,
               "Title": "AbstractBaseClass.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\AbstractBaseClass.cs",
               "RelativeDocumentMoniker": "Models\\AbstractBaseClass.cs",
@@ -503,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 39,
               "Title": "Views_TeachersViews_MainTeacherMenu.xaml.sg.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\AppData\\Local\\Temp\\.vsdbgsrc\\225c3cbb5a7106c73a25e447ec460682e494c313\\Views_TeachersViews_MainTeacherMenu.xaml.sg.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\225c3cbb5a7106c73a25e447ec460682e494c313\\Views_TeachersViews_MainTeacherMenu.xaml.sg.cs",
@@ -516,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 40,
               "Title": "GeneralsFunctions.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\ServicesLogIn\\GeneralsFunctions.cs",
               "RelativeDocumentMoniker": "Services\\ServicesLogIn\\GeneralsFunctions.cs",
@@ -528,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "GeneralsIFunctions.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\GeneralsIFunctions.cs",
               "RelativeDocumentMoniker": "Interfaz\\GeneralsIFunctions.cs",
@@ -540,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Views\\Login.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
@@ -552,19 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "GlobalUsing.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\GlobalUsing.cs",
-              "RelativeDocumentMoniker": "GlobalUsing.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\GlobalUsing.cs",
-              "RelativeToolTip": "GlobalUsing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:27:25.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -572,11 +767,12 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T00:45:33.78Z"
+              "WhenOpened": "2025-01-27T00:45:33.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "SQLLiteBase.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Services\\DataBase\\SQLLiteBase.cs",
               "RelativeDocumentMoniker": "Services\\DataBase\\SQLLiteBase.cs",
@@ -588,31 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "StudentsModels.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\StudentsModels.cs",
-              "RelativeDocumentMoniker": "Models\\StudentsModels.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Models\\StudentsModels.cs",
-              "RelativeToolTip": "Models\\StudentsModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T21:40:44.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T18:35:01.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 45,
               "Title": "IDataBaseInitializer.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\IDataBaseInitializer.cs",
               "RelativeDocumentMoniker": "Interfaz\\IDataBaseInitializer.cs",
@@ -624,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 46,
               "Title": "Rama.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Enums\\Rama.cs",
               "RelativeDocumentMoniker": "Enums\\Rama.cs",
@@ -636,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 47,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -648,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "Views_SignUpForm.xaml.sg.cs",
               "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\a3c9383d4825e7b9ed2e19a549bd2ef0315c5990\\Views_SignUpForm.xaml.sg.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\a3c9383d4825e7b9ed2e19a549bd2ef0315c5990\\Views_SignUpForm.xaml.sg.cs",
@@ -660,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 49,
               "Title": "LoginIFunctions.cs",
               "DocumentMoniker": "C:\\Users\\cdibe\\OneDrive\\Escritorio\\Emma\\programacion\\EscuelaConNetMaui\\EscuelasConNetMaui\\Interfaz\\InterrfazLogIn\\LoginIFunctions.cs",
               "RelativeDocumentMoniker": "Interfaz\\InterrfazLogIn\\LoginIFunctions.cs",

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels.CoursesViewModels"
+             x:Class="EscuelaConMaui.Views.CoursesViews.ShowCourse"
+             Title="ShowCourse">
+
+    <ContentPage.BindingContext>
+        <vm:ShowCourseViewModels/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout x:DataType="vm:ShowCourseViewModels">
+        <Label Text="{Binding LabelCourseDescription}" TextColor="Red"/>
+
+        <Button Text="Add Students" Command="{Binding AddStudentsCommand}"/>
+        <Button Text="Back" Command="{Binding BackCommand}"/>
+    </VerticalStackLayout>
+    
+</ContentPage>

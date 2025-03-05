@@ -28,5 +28,7 @@ namespace EscuelaConMaui.Services
         public Task<int> UpdateCourse(CoursesModels course)
             => Task.FromResult(db.Update(course));
 
+        public Task<List<CoursesModels>> GetAllCoursesByMyTeacher(int myTeacherId) //Esta consulta no la twngo en SQLLiteHelper. Es que es propia para Courses. Pues, debo, traerme todos los registros de la tabla courses que pertenezcan a mi teacher.
+            => Task.FromResult(db._connection.Table<CoursesModels>().Where(item => item.TeacherId == myTeacherId).ToList());
     }
 }

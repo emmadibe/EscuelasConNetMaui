@@ -53,6 +53,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.Cours
 build_metadata.AdditionalFiles.TargetPath = Views\CoursesViews\CreateCourse.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CoursesViews\CreateCourse.xaml
 
+[C:/Users/cdibe/OneDrive/Escritorio/Emma/programacion/EscuelaConNetMaui/EscuelasConNetMaui/Views/CoursesViews/ShowCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.CoursesViews.ShowCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoursesViews\ShowCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoursesViews\ShowCourse.xaml
+
 [C:/Users/cdibe/OneDrive/Escritorio/Emma/programacion/EscuelaConNetMaui/EscuelasConNetMaui/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.Login.xaml
@@ -64,6 +70,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.SignUpForm.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SignUpForm.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SignUpForm.xaml
+
+[C:/Users/cdibe/OneDrive/Escritorio/Emma/programacion/EscuelaConNetMaui/EscuelasConNetMaui/Views/StudentsViews/AddStudent.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.StudentsViews.AddStudent.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StudentsViews\AddStudent.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StudentsViews\AddStudent.xaml
 
 [C:/Users/cdibe/OneDrive/Escritorio/Emma/programacion/EscuelaConNetMaui/EscuelasConNetMaui/Views/TeachersViews/MainTeacherMenu.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
