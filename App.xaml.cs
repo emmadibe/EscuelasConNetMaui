@@ -5,8 +5,10 @@ using EscuelaConMaui.Services.ServicesLogIn;
 using EscuelaConMaui.ViewModels;
 using EscuelaConMaui.ViewModels.CoursesViewModels;
 using EscuelaConMaui.ViewModels.StudentsViewModels;
+using EscuelaConMaui.ViewModels.TestsViewModels;
 using EscuelaConMaui.Views.CoursesViews;
 using EscuelaConMaui.Views.StudentsViews;
+using EscuelaConMaui.Views.TestsViews;
 
 namespace EscuelaConMaui
 {
@@ -32,6 +34,8 @@ namespace EscuelaConMaui
             services.AddSingleton<SQLLiteBase>();  
             services.AddSingleton<ICourses, CoursesServices>();
             services.AddSingleton<IStudents, StudentsService>();
+            services.AddSingleton<ITests, TestsServices>();
+            services.AddSingleton<IstudentXtest, TestsXStudentsService>();
 
             //ViewModels:
             services.AddTransient<LoginViewModel>();
@@ -40,6 +44,7 @@ namespace EscuelaConMaui
             services.AddTransient<CreateCourseViewModels>();
             services.AddTransient<ShowCourseViewModels>();
             services.AddTransient<AddStudentViewModels>();
+            services.AddTransient<AddTestViewModels>();
 
             //Views:
             services.AddSingleton<Login>();
@@ -47,6 +52,7 @@ namespace EscuelaConMaui
             services.AddSingleton<CreateCourse>();
             services.AddSingleton<ShowCourse>();
             services.AddSingleton<AddStudent>();
+            services.AddSingleton<AddTest>();
 
             return services.BuildServiceProvider();
         }

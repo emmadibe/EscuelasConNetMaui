@@ -21,7 +21,9 @@ namespace EscuelaConMaui.Services.DataBase
         {
             _connection.CreateTable<TeachersModels>();
             _connection.CreateTable<CoursesModels>();
-           // _connection.CreateTable<StudentsModels>();
+            _connection.CreateTable<StudentsModels>();
+            _connection.CreateTable<TestsModels>();
+            _connection.CreateTable<TestsXStudentsModels>();
         }
     }
 }

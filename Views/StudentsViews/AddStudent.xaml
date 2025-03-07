@@ -26,5 +26,6 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
+        <Label Text="{Binding Resultado}" TextColor="Azure"/>
     </VerticalStackLayout>
 </ContentPage>

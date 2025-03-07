@@ -16,9 +16,9 @@ namespace EscuelaConMaui.Models
         public int CourseId { get; set; }
 
         [MaxLength(30)]
-        protected string? Name { get; set; }
+        public string? Name { get; set; }
         [MaxLength(30)]
 
-        protected string? LastName { get; set; }
+        public string? LastName { get; set; }
     }
 }

@@ -63,5 +63,11 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
         {
             await Shell.Current.GoToAsync("AddStudent");        
         }
+
+        [RelayCommand]
+        public async Task AddTest()
+        {
+            await Shell.Current.GoToAsync("AddTest");
+        }
     }
 }

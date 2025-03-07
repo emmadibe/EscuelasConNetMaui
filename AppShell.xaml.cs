@@ -1,6 +1,7 @@
 ﻿using EscuelaConMaui.Views.CoursesViews;
 using EscuelaConMaui.Views.StudentsViews;
 using EscuelaConMaui.Views.TeachersViews;
+using EscuelaConMaui.Views.TestsViews;
 
 namespace EscuelaConMaui
 {
@@ -16,7 +17,7 @@ namespace EscuelaConMaui
             Routing.RegisterRoute(nameof(CreateCourse), typeof(CreateCourse));
             Routing.RegisterRoute(nameof(ShowCourse), typeof(ShowCourse));
             Routing.RegisterRoute(nameof(AddStudent), typeof(AddStudent));
-
+            Routing.RegisterRoute(nameof(AddTest), typeof(AddTest));
         }
     }
 }
