@@ -36,6 +36,8 @@ namespace EscuelaConMaui
             services.AddSingleton<IStudents, StudentsService>();
             services.AddSingleton<ITests, TestsServices>();
             services.AddSingleton<IstudentXtest, TestsXStudentsService>();
+            services.AddSingleton<ITraerTodos, TraerTodoService>();
+            services.AddSingleton<ITraerTodoDefinitivo, TraerTodoDefinitivoService>();
 
             //ViewModels:
             services.AddTransient<LoginViewModel>();

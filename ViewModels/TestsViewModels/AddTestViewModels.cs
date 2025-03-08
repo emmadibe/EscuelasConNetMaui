@@ -75,8 +75,10 @@ namespace EscuelaConMaui.ViewModels.TestsViewModels
 
             if (Errors.Count > 0) return; //Pues, si hay un error debo terminar el método para que no se guarde a un nuevo docente. 
 
-            int TestID = await _testFunctions.InsertTest(new TestsModels { Name = Name, TestNoumber = TestNoumber, CourseId = MyCurrentCourse.courseId });
+            int TestID = await _testFunctions.InsertTest(new TestsModels { Name = Name, TestNoumber = TestNoumber, CourseId = MyCurrentCourse.courseId, Date = DateTime.Now });
 
+
+                                        ///
             ///Ya guardé mi nuevo examen en la tabla test de la base de datos. Ahora, debo crear los registros intermedios studentsXtests
             //Primero, debo traerme todos los estudiantes que pertenezcan a este cursoID.
             List<StudentsModels> students = await _studentsFunctions.GetAllByCourseId(MyCurrentCourse.courseId); //Listo, ya tengo, en una colección de tipo List, a todos mis estudiantes de mi curso. O sea, cada elemento de mi List es una instancia de StudentsModels.

@@ -16,7 +16,7 @@ namespace EscuelaConMaui.Services.DataBase
             string dbPath = Path.Combine(FileSystem.AppDataDirectory, "EscuelasNetMaui.db");
             _connection = new SQLiteConnection(dbPath); //Ni bien instancio la clase inicializo a _connection (instancia de SQLiteConnection). Necesito acceder a sus métodos en Initialize()
         }
-
+         
         public void Initialize()
         {
             _connection.CreateTable<TeachersModels>();

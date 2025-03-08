@@ -9,11 +9,53 @@
         <vm:ShowCourseViewModels/>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout x:DataType="vm:ShowCourseViewModels">
+    <VerticalStackLayout>
         <Label Text="{Binding LabelCourseDescription}" TextColor="Red"/>
 
+        <!--Mi tabla en donde muestro todos los datos-->
+        <!-- CollectionView para mostrar la tabla -->
+        <CollectionView ItemsSource="{Binding StudentsList}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.Header>
+                <!-- Encabezados de la tabla -->
+                <Grid Padding="5" BackgroundColor="LightGray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Nombre y Apellido" Grid.Column="0" FontAttributes="Bold" />
+                    <Label Text="Examen" Grid.Column="1" FontAttributes="Bold" />
+                    <Label Text="Nota" Grid.Column="2" FontAttributes="Bold" />
+                    <Label Text="N° Examen" Grid.Column="3" FontAttributes="Bold" />
+                </Grid>
+            </CollectionView.Header>
+            <CollectionView.ItemTemplate>
+                <!-- Plantilla para cada fila -->
+                <DataTemplate>
+                    <Grid Padding="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="{Binding NameAndLastName}" Grid.Column="0" />
+                        <Label Text="{Binding NoumberAndNameTest}" Grid.Column="1" />
+                        <Label Text="{Binding Nota}" Grid.Column="2" />
+                        <Label Text="{Binding TestNoumber}" Grid.Column="3" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <!--Fin de la tabla-->
+        
         <Button Text="Add Students" Command="{Binding AddStudentsCommand}"/>
         <Button Text="Add Test" Command="{Binding AddTestCommand}"/>
+        <Button Text="Asistense" Command="{Binding GoToAssistenceCommand}"/>
         <Button Text="Back" Command="{Binding BackCommand}"/>
     </VerticalStackLayout>
     

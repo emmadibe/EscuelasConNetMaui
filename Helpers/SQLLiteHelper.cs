@@ -37,6 +37,12 @@ namespace EscuelaConMaui.Helpers
         public TableQuery<T> returnTableQuery(T t)
             => _connection.Table<T>();
 
+        // Nuevo método para ejecutar consultas SQL crudas. Lo usaré para traerme TODOS LOS DATOS
+        public List<TResult> ExecuteSql<TResult>(string sql, params object[] parameters) where TResult : new()
+        {
+            return _connection.Query<TResult>(sql, parameters);
+        }
+
     }
 
 

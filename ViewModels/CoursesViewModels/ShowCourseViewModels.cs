@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +13,21 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
         //INYECCION DE DEPENDENCIAS
         private readonly ICourses _coursesFunctions;
         private readonly GeneralsIFunctions _generalsFunctions;
+        private readonly ITraerTodos _traerTodosFunctions;
+        private readonly ITraerTodoDefinitivo _traerTodoDefinitivo;
         //
         //PROPIEDADES
+        private ObservableCollection<TraerTodoModels> _studentsList;
+        public ObservableCollection<TraerTodoModels> StudentsList
+        {
+            get => _studentsList;
+            set
+            {
+                _studentsList = value;
+                OnPropertyChanged();
+            }
+        }
+
         [ObservableProperty]
         private int courseId;
 
@@ -33,13 +47,21 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
             this.courseId = courseID;
             _coursesFunctions = App.Current.Services.GetRequiredService<ICourses>();
             _generalsFunctions = App.Current.Services.GetRequiredService<GeneralsIFunctions>();
+            _traerTodosFunctions = App.Current.Services.GetRequiredService<ITraerTodos>();
+            _traerTodoDefinitivo = App.Current.Services.GetRequiredService<ITraerTodoDefinitivo>();
             GetMyCourse(courseId);
+            StudentsList = new ObservableCollection<TraerTodoModels>();
+            Task.Run(async () => await ShowEverithing()); // Ejecutar asincrónicamente
         }
 
         public ShowCourseViewModels() //Builder dos
         {
             _coursesFunctions = App.Current.Services.GetRequiredService<ICourses>();
             _generalsFunctions = App.Current.Services.GetRequiredService<GeneralsIFunctions>();
+            _traerTodosFunctions = App.Current.Services.GetRequiredService<ITraerTodos>();
+            _traerTodoDefinitivo = App.Current.Services.GetRequiredService<ITraerTodoDefinitivo>();
+            StudentsList = new ObservableCollection<TraerTodoModels>();
+            Task.Run(async () => await ShowEverithing()); // Ejecutar asincrónicamente
         } 
 
         //METODOS
@@ -68,6 +90,30 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
         public async Task AddTest()
         {
             await Shell.Current.GoToAsync("AddTest");
+        }
+
+        [RelayCommand]
+        public async Task GoToAssistence()
+        {
+
+        }
+
+        [RelayCommand]
+        public async Task ShowEverithing()
+        {
+            
+            List<TraerTodoModels> TraerTodoList = await _traerTodosFunctions.GetStudentExamsByCourse(MyCurrentCourse.courseId);
+
+            Debug.WriteLine($"Usted tiene {TraerTodoList.Count} elementos en su lista");
+
+            // Limpiar la colección antes de agregar nuevos elementos
+            StudentsList.Clear();
+
+            foreach (TraerTodoModels elemento in TraerTodoList)
+            {
+                Debug.WriteLine(elemento.ToString());
+                StudentsList.Add(elemento); //Voy agregando, uno por uno, cada elemento (que es una instancia de TraerTodoModels) a la colección de tipo List TraerTodoList.
+            }
         }
     }
 }

@@ -21,5 +21,7 @@ namespace EscuelaConMaui.Models
         public string? Name { get; set; }
         [Required]
         public int TestNoumber { get; set; }
+        [Required]
+        public DateTime Date { get; set; }
     }
 }
