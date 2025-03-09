@@ -10,5 +10,16 @@ namespace EscuelaConMaui.Models
     {
         public string NameAndLastName { get; set; }
         public Dictionary<string, int> TestAndNote { get; set; }
+
+        public TraerTodoDefinitivoModels(string NameAndLast, Dictionary<string, int> Note)
+        {
+            NameAndLastName = NameAndLast;
+            TestAndNote = Note;
+        }
+
+        public override string ToString()
+        {
+            return $"Nombre: {NameAndLastName}, Examen: {TestAndNote}";
+        }
     }
 }

@@ -17,8 +17,8 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
         private readonly ITraerTodoDefinitivo _traerTodoDefinitivo;
         //
         //PROPIEDADES
-        private ObservableCollection<TraerTodoModels> _studentsList;
-        public ObservableCollection<TraerTodoModels> StudentsList
+        private ObservableCollection<TraerTodoDefinitivoModels> _studentsList;
+        public ObservableCollection<TraerTodoDefinitivoModels> StudentsList
         {
             get => _studentsList;
             set
@@ -50,7 +50,7 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
             _traerTodosFunctions = App.Current.Services.GetRequiredService<ITraerTodos>();
             _traerTodoDefinitivo = App.Current.Services.GetRequiredService<ITraerTodoDefinitivo>();
             GetMyCourse(courseId);
-            StudentsList = new ObservableCollection<TraerTodoModels>();
+            StudentsList = new ObservableCollection<TraerTodoDefinitivoModels>();
             Task.Run(async () => await ShowEverithing()); // Ejecutar asincrónicamente
         }
 
@@ -60,7 +60,7 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
             _generalsFunctions = App.Current.Services.GetRequiredService<GeneralsIFunctions>();
             _traerTodosFunctions = App.Current.Services.GetRequiredService<ITraerTodos>();
             _traerTodoDefinitivo = App.Current.Services.GetRequiredService<ITraerTodoDefinitivo>();
-            StudentsList = new ObservableCollection<TraerTodoModels>();
+            StudentsList = new ObservableCollection<TraerTodoDefinitivoModels>();
             Task.Run(async () => await ShowEverithing()); // Ejecutar asincrónicamente
         } 
 
@@ -102,14 +102,12 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
         public async Task ShowEverithing()
         {
             
-            List<TraerTodoModels> TraerTodoList = await _traerTodosFunctions.GetStudentExamsByCourse(MyCurrentCourse.courseId);
-
-            Debug.WriteLine($"Usted tiene {TraerTodoList.Count} elementos en su lista");
-
+            List<TraerTodoModels> TraerTodoList = await _traerTodosFunctions.GetStudentExamsByCourse(MyCurrentCourse.courseId); //Me traigo los registros en el formato original, que no sirve. 
+            List<TraerTodoDefinitivoModels> TreaerTodoListDefinitivo = await _traerTodoDefinitivo.pasarRegistrosDeUnaColeccionAOtra(TraerTodoList);
             // Limpiar la colección antes de agregar nuevos elementos
             StudentsList.Clear();
 
-            foreach (TraerTodoModels elemento in TraerTodoList)
+            foreach (TraerTodoDefinitivoModels elemento in TreaerTodoListDefinitivo)
             {
                 Debug.WriteLine(elemento.ToString());
                 StudentsList.Add(elemento); //Voy agregando, uno por uno, cada elemento (que es una instancia de TraerTodoModels) a la colección de tipo List TraerTodoList.
