@@ -103,13 +103,15 @@ namespace EscuelaConMaui.ViewModels.CoursesViewModels
         {
             
             List<TraerTodoModels> TraerTodoList = await _traerTodosFunctions.GetStudentExamsByCourse(MyCurrentCourse.courseId); //Me traigo los registros en el formato original, que no sirve. 
+            Debug.WriteLine($"la coleccion original posee {TraerTodoList.Count}");
             List<TraerTodoDefinitivoModels> TreaerTodoListDefinitivo = await _traerTodoDefinitivo.pasarRegistrosDeUnaColeccionAOtra(TraerTodoList);
+            Debug.WriteLine($"la coleccion definitiva posee {TreaerTodoListDefinitivo.Count}");
             // Limpiar la colección antes de agregar nuevos elementos
             StudentsList.Clear();
 
             foreach (TraerTodoDefinitivoModels elemento in TreaerTodoListDefinitivo)
             {
-                Debug.WriteLine(elemento.ToString());
+                elemento.print();
                 StudentsList.Add(elemento); //Voy agregando, uno por uno, cada elemento (que es una instancia de TraerTodoModels) a la colección de tipo List TraerTodoList.
             }
         }

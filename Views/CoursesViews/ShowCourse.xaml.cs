@@ -17,5 +17,161 @@ public partial class ShowCourse : ContentPage
 	{
 		InitializeComponent();
         BindingContext = App.Current.Services.GetRequiredService<ShowCourseViewModels>(); //Es para acceder al ViewModel en tiempos de ejecución. Cuando en el DataType, en el archivo XAMl, aclaro que ls propiedades son de la clase ShowCourseViewModel, es para que el software se de cuenta de eso en tipos de DESARROLLO; esto es en tiempos de EJECUCIÓN.
+        Loaded += (s, e) => ConstruirTablaDinamica();
+    }
+
+    private void ConstruirTablaDinamica()
+    {
+        var viewModel = BindingContext as ShowCourseViewModels;
+        if (viewModel == null || viewModel.StudentsList == null || !viewModel.StudentsList.Any()) return;
+
+        // Limpiar el Grid para evitar duplicados si se reconstruye
+        DynamicGrid.Children.Clear();
+        DynamicGrid.ColumnDefinitions.Clear();
+        DynamicGrid.RowDefinitions.Clear();
+
+        // Obtener todos los exámenes únicos de la colección StudentsList
+        var examenesUnicos = viewModel.StudentsList
+            .SelectMany(s => s.TestAndNote.Keys)
+            .Distinct()
+            .OrderBy(k => k)
+            .ToList();
+
+        // Configurar las definiciones de columnas
+        DynamicGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Star }); // Nombre y Apellido
+        foreach (var examen in examenesUnicos)
+        {
+            DynamicGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Star }); // Examen
+            DynamicGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto }); // Nota
+            DynamicGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto }); // N° Examen
+        }
+
+        // Fila de encabezado
+        DynamicGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        var labelNombre = new Label
+        {
+            Text = "Nombre y Apellido",
+            FontAttributes = FontAttributes.Bold,
+            BackgroundColor = Colors.LightGray,
+            HorizontalTextAlignment = TextAlignment.Center
+        };
+        Grid.SetRow(labelNombre, 0);
+        Grid.SetColumn(labelNombre, 0);
+        DynamicGrid.Children.Add(labelNombre);
+
+        int columna = 1;
+        for (int i = 0; i < examenesUnicos.Count; i++)
+        {
+            var labelExamen = new Label
+            {
+                Text = examenesUnicos[i],
+                FontAttributes = FontAttributes.Bold,
+                BackgroundColor = Colors.LightGray,
+                HorizontalTextAlignment = TextAlignment.Center
+            };
+            Grid.SetRow(labelExamen, 0);
+            Grid.SetColumn(labelExamen, columna++);
+            DynamicGrid.Children.Add(labelExamen);
+
+            var labelNota = new Label
+            {
+                Text = "Nota",
+                FontAttributes = FontAttributes.Bold,
+                BackgroundColor = Colors.LightGray,
+                HorizontalTextAlignment = TextAlignment.Center
+            };
+            Grid.SetRow(labelNota, 0);
+            Grid.SetColumn(labelNota, columna++);
+            DynamicGrid.Children.Add(labelNota);
+
+            var labelNumero = new Label
+            {
+                Text = $"N° {examenesUnicos[i]}",
+                FontAttributes = FontAttributes.Bold,
+                BackgroundColor = Colors.LightGray,
+                HorizontalTextAlignment = TextAlignment.Center
+            };
+            Grid.SetRow(labelNumero, 0);
+            Grid.SetColumn(labelNumero, columna++);
+            DynamicGrid.Children.Add(labelNumero);
+        }
+
+        // Filas de datos
+        for (int fila = 0; fila < viewModel.StudentsList.Count; fila++)
+        {
+            DynamicGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            var estudiante = viewModel.StudentsList[fila];
+            var labelEstudiante = new Label
+            {
+                Text = estudiante.NameAndLastName,
+                HorizontalTextAlignment = TextAlignment.Center
+            };
+            Grid.SetRow(labelEstudiante, fila + 1);
+            Grid.SetColumn(labelEstudiante, 0);
+            DynamicGrid.Children.Add(labelEstudiante);
+
+            columna = 1;
+            foreach (var examen in examenesUnicos)
+            {
+                if (estudiante.TestAndNote.ContainsKey(examen))
+                {
+                    var labelExamenDato = new Label
+                    {
+                        Text = examen,
+                        HorizontalTextAlignment = TextAlignment.Center
+                    };
+                    Grid.SetRow(labelExamenDato, fila + 1);
+                    Grid.SetColumn(labelExamenDato, columna++);
+                    DynamicGrid.Children.Add(labelExamenDato);
+
+                    var labelNotaDato = new Label
+                    {
+                        Text = estudiante.TestAndNote[examen].ToString(),
+                        HorizontalTextAlignment = TextAlignment.Center
+                    };
+                    Grid.SetRow(labelNotaDato, fila + 1);
+                    Grid.SetColumn(labelNotaDato, columna++);
+                    DynamicGrid.Children.Add(labelNotaDato);
+
+                    var labelNumeroDato = new Label
+                    {
+                        Text = (columna / 3).ToString(), // N° Examen como índice relativo
+                        HorizontalTextAlignment = TextAlignment.Center
+                    };
+                    Grid.SetRow(labelNumeroDato, fila + 1);
+                    Grid.SetColumn(labelNumeroDato, columna++);
+                    DynamicGrid.Children.Add(labelNumeroDato);
+                }
+                else
+                {
+                    var labelExamenVacio = new Label
+                    {
+                        Text = "-",
+                        HorizontalTextAlignment = TextAlignment.Center
+                    };
+                    Grid.SetRow(labelExamenVacio, fila + 1);
+                    Grid.SetColumn(labelExamenVacio, columna++);
+                    DynamicGrid.Children.Add(labelExamenVacio);
+
+                    var labelNotaVacio = new Label
+                    {
+                        Text = "-",
+                        HorizontalTextAlignment = TextAlignment.Center
+                    };
+                    Grid.SetRow(labelNotaVacio, fila + 1);
+                    Grid.SetColumn(labelNotaVacio, columna++);
+                    DynamicGrid.Children.Add(labelNotaVacio);
+
+                    var labelNumeroVacio = new Label
+                    {
+                        Text = "-",
+                        HorizontalTextAlignment = TextAlignment.Center
+                    };
+                    Grid.SetRow(labelNumeroVacio, fila + 1);
+                    Grid.SetColumn(labelNumeroVacio, columna++);
+                    DynamicGrid.Children.Add(labelNumeroVacio);
+                }
+            }
+        }
     }
 }

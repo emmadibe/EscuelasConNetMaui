@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EscuelaConMaui.Models
 {
-    public class TraerTodoDefinitivoModels
+    public class TraerTodoDefinitivoModels : IEquatable<TraerTodoDefinitivoModels?>
     {
         public string NameAndLastName { get; set; }
         public Dictionary<string, int> TestAndNote { get; set; }
@@ -17,9 +18,30 @@ namespace EscuelaConMaui.Models
             TestAndNote = Note;
         }
 
-        public override string ToString()
+        public void print()
         {
-            return $"Nombre: {NameAndLastName}, Examen: {TestAndNote}";
+            Debug.WriteLine($"Nombre alumno: {this.NameAndLastName}");
+           foreach( var item in TestAndNote )
+            {
+                Debug.WriteLine($"Examen {item.Key}, nota: {item.Value}" );
+            }
+        }
+
+        public override bool Equals(object? obj)
+        {
+            return obj is TraerTodoDefinitivoModels models &&
+                   NameAndLastName == models.NameAndLastName;
+        }
+
+        public bool Equals(TraerTodoDefinitivoModels? other)
+        {
+            return other is not null &&
+                   NameAndLastName == other.NameAndLastName;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(NameAndLastName);
         }
     }
 }
