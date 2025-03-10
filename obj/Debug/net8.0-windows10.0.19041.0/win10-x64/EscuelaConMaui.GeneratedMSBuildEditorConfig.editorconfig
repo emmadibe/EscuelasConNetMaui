@@ -92,3 +92,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.TestsViews.AddTest.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TestsViews\AddTest.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\TestsViews\AddTest.xaml
+
+[C:/Users/cdibe/OneDrive/Escritorio/Emma/programacion/EscuelaConNetMaui/EscuelasConNetMaui/Views/TestsViews/ShowAllTests.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EscuelaConMaui.Views.TestsViews.ShowAllTests.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TestsViews\ShowAllTests.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TestsViews\ShowAllTests.xaml

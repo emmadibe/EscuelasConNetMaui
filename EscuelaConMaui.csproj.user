@@ -27,6 +27,9 @@
     <MauiXaml Update="Views\TestsViews\AddTest.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\TestsViews\ShowAllTests.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">

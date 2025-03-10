@@ -94,6 +94,9 @@
 	  <MauiXaml Update="Views\TestsViews\AddTest.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\TestsViews\ShowAllTests.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

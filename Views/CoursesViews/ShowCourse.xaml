@@ -14,6 +14,7 @@
         <Button Text="Add Students" Command="{Binding AddStudentsCommand}"/>
         <Button Text="Add Test" Command="{Binding AddTestCommand}"/>
         <Button Text="Asistense" Command="{Binding GoToAssistenceCommand}"/>
+        <Button Text="See all tests" Command="{Binding SeeAllTestsCommand}"/>
         <Button Text="Back" Command="{Binding BackCommand}"/>
     </VerticalStackLayout>
 </ContentPage>
