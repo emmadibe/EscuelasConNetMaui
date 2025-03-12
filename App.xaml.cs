@@ -48,6 +48,7 @@ namespace EscuelaConMaui
             services.AddTransient<AddStudentViewModels>();
             services.AddTransient<AddTestViewModels>();
             services.AddTransient<ShowAllTestsViewModels>();
+            services.AddTransient<ShowTestViewModel>();
 
             //Views:
             services.AddSingleton<Login>();
@@ -57,6 +58,7 @@ namespace EscuelaConMaui
             services.AddSingleton<AddStudent>();
             services.AddSingleton<AddTest>();
             services.AddSingleton<ShowAllTests>();
+            services.AddSingleton<ShowTest>();
 
             return services.BuildServiceProvider();
         }

@@ -21,7 +21,8 @@ namespace EscuelaConMaui.ViewModels.TestsViewModels
             get => $"Curso:\n ID: {MyCurrentCourse.courseId}\n Nombre: {MyCurrentCourse.courseName}\n Escuela: {MyCurrentCourse.courseSchool}\n Materia: {MyCurrentCourse.courseSubject}\n";
             set => this._generalFunctions.OnPropertyChanged();
         }
-        public ObservableCollection<TestsModels> Tests { get; set; } = new(); //Colección, de tipo ObservableCollection, de TestsModels. O sea, cada elemento de mi colección es una instancia de la clase TestsModels.
+        [ObservableProperty]
+        private ObservableCollection<TestsModels> tests = new(); //Colección, de tipo ObservableCollection, de TestsModels. O sea, cada elemento de mi colección es una instancia de la clase TestsModels.
         ///
 
         //BUILDER
@@ -29,6 +30,7 @@ namespace EscuelaConMaui.ViewModels.TestsViewModels
         {
             _generalFunctions = App.Current.Services.GetRequiredService<GeneralsIFunctions>();
             _testsFunctions = App.Current.Services.GetRequiredService<ITests>();
+            GetAllTests();
         }
         //
 
@@ -41,6 +43,12 @@ namespace EscuelaConMaui.ViewModels.TestsViewModels
             {
                 Tests.Add(model); //voy agregando uno por uno.
             }
+        }
+
+        [RelayCommand]
+        public async Task InTest(int TestId)
+        {
+            await Shell.Current.GoToAsync("ShowTest");
         }
         //
     }

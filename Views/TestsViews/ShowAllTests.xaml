@@ -15,14 +15,14 @@
 
         <CollectionView x:Name="TestsCollection" ItemsSource="{Binding Tests}">
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="mo:TestsModels":>
+                <DataTemplate x:DataType="mo:TestsModels">
                     <HorizontalStackLayout Padding="2" Background="Beige">
                         <Label Text="{Binding Id }" x:Name="IdLabel"/>
                         <Label Text="{Binding Name}"/>
                         <Label Text="{Binding TestNoumber}"/>
                         <Button Background="BlueViolet" 
-                   Text="IN" 
-                   Command="{Binding Source={x:Reference CoursesCollection}, Path=BindingContext.InCourseCommand}" CommandParameter="{Binding Id}"/>
+                                Text="IN" 
+                                Command="{Binding Source={x:Reference TestsCollection}, Path=BindingContext.InTestCommand}" CommandParameter="{Binding Id}"/>
 
                     </HorizontalStackLayout>
                 </DataTemplate>

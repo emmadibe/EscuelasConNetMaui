@@ -19,6 +19,7 @@ namespace EscuelaConMaui
             Routing.RegisterRoute(nameof(AddStudent), typeof(AddStudent));
             Routing.RegisterRoute(nameof(AddTest), typeof(AddTest));
             Routing.RegisterRoute(nameof(ShowAllTests), typeof(ShowAllTests));  
+            Routing.RegisterRoute(nameof(ShowTest), typeof(ShowTest));
         }
     }
 }
