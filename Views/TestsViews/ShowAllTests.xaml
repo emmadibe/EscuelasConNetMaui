@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EscuelaConMaui.Views.TestsViews.ShowAllTests"
+             xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels.TestsViewModels"
+             xmlns:mo ="clr-namespace:EscuelaConMaui.Models"
+             Title="ShowAllTests">
+    <ContentPage.BindingContext>
+        <vm:ShowAllTestsViewModels/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout x:DataType="vm:ShowAllTestsViewModels">
+        <Label Text="{Binding LabelMyCourse}" TextColor="Red"/>
+        <Label Text="Mis Exámenes..." TextColor="Purple" HorizontalTextAlignment="Center"/>
+
+        <CollectionView x:Name="TestsCollection" ItemsSource="{Binding Tests}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="mo:TestsModels">
+                    <HorizontalStackLayout Padding="2" Background="Beige">
+                        <Label Text="{Binding Id }" x:Name="IdLabel"/>
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding TestNoumber}"/>
+                        <Button Background="BlueViolet" 
+                                Text="IN" 
+                                Command="{Binding Source={x:Reference TestsCollection}, Path=BindingContext.InTestCommand}" CommandParameter="{Binding Id}"/>
+
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Back" Background="BlueViolet" Command="{Binding BackCommand}"/>
+
+    </VerticalStackLayout>
+</ContentPage>

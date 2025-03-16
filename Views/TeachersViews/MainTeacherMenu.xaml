@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels.TeachersViewModels"
+             xmlns:ge="clr-namespace:EscuelaConMaui.Services.ServicesLogIn"
+             xmlns:mo="clr-namespace:EscuelaConMaui.Models"
+             x:Class="EscuelaConMaui.Views.TeachersViews.MainTeacherMenu"
+             Title="MainTeacherMenu">
+
+    <ContentPage.BindingContext>
+        <vm:MainTeacherMenuViewModel/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout x:DataType="vm:MainTeacherMenuViewModel">
+        <Label Text="{Binding LabelTeacherDescription}" TextColor="Red"/>
+        <Label Text="Mis cursos..." TextColor="Purple" HorizontalTextAlignment="Center"/>
+
+        <CollectionView x:Name="CoursesCollection" ItemsSource="{Binding Courses}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="mo:CoursesModels">
+                    <HorizontalStackLayout Padding="2" Background="Beige">
+                        <Label Text="{Binding Id}" x:Name="IdLabel"/>
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding School}"/>
+                        <Label Text="{Binding Description}"/>
+                        <Button Background="BlueViolet" 
+                        Text="IN" 
+                        Command="{Binding Source={x:Reference CoursesCollection}, Path=BindingContext.InCourseCommand}" CommandParameter="{Binding Id}"/>
+                        
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label Text="{Binding IdCourseSelected}"/>
+
+        <Button Text="CreateCourse" Command="{Binding CreateCourseCommand}"/>
+        <Button Text="Back" Command="{Binding BackCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>

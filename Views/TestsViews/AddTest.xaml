@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels.TestsViewModels"
+             x:Class="EscuelaConMaui.Views.TestsViews.AddTest"
+             Title="AddTest">
+
+    <ContentPage.BindingContext>
+        <vm:AddTestViewModels/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout x:DataType="vm:AddTestViewModels">
+        <Label Text="{Binding LabelCourseDescription}" TextColor="Red" x:Name="CourseDescription"/>
+
+        <Entry Placeholder="TestName" Text="{Binding Name}" x:Name="Name" />
+        <Picker Title="Selecciona el número de trabajo"
+                ItemsSource="{Binding Noumbers}"
+                SelectedItem="{Binding TestNoumber}"
+                />
+
+        <Button Text="Add Test" Command="{Binding AddTestCommand}" />
+        <Button Text="Back" Command="{Binding BackCommand}"/>
+
+        <CollectionView ItemsSource="{Binding Errors}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding .}"/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </VerticalStackLayout>
+</ContentPage>

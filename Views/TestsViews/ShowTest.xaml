@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels.TestsViewModels"
+             xmlns:mo="clr-namespace:EscuelaConMaui.Models"
+             x:Class="EscuelaConMaui.Views.TestsViews.ShowTest"
+             Title="ShowTest">
+    
+    <ContentPage.BindingContext>
+        <vm:ShowTestViewModel/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout x:DataType="vm:ShowTestViewModel">
+
+        <Label Text="{Binding LabelTest}" x:Name="LabelMyTest" TextColor="Red" />
+
+        <Label Text="Alumnos: " x:Name="students" VerticalTextAlignment="Center"/>
+
+        <CollectionView x:Name="StudentsCollection" ItemsSource="{Binding Studentes}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="mo:StudentsModels">
+                    <HorizontalStackLayout Padding="2" Background="Beige">
+                        <Label Text="{Binding Id}" x:Name="IdLabel"/>
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding LastName}"/>
+
+                        <Picker Title="Nota: "
+                                 ItemsSource="{Binding Source={x:Reference StudentsCollection}, Path=BindingContext.Notes}"
+                                 SelectedItem="{Binding Source={x:Reference StudentsCollection}, Path=BindingContext.Note}"/>
+
+                        <Button Background="BlueViolet" 
+                                 Text="ADD NOTE" 
+                                 Command="{Binding Source={x:Reference StudentsCollection}, Path=BindingContext.AddNoteCommand}" CommandParameter="{Binding Id}"/>
+
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Background="BlueViolet" Text="Back" Command="{Binding BackCommand}"/>
+
+    </VerticalStackLayout>
+</ContentPage>

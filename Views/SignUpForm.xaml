@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:EscuelaConMaui.ViewModels"
+             xmlns:enum="clr-namespace:EscuelaConMaui.Enums"               
+             x:Class="EscuelaConMaui.Views.SignUpForm"
+             Title="SignUpForm">
+    <!--Con xmlnx:vm estoy dandole acceso a esta vista a la carpeta ViewModels, a la cual abrevié vm . -->
+
+    <ContentPage.BindingContext>
+        <vm:SignUpFormViewModel/>
+    </ContentPage.BindingContext>
+    <!--Se está creando una instancia de SignUpFormViewModel y asignándola como el BindingContext de una ContentPage. 
+    Esto permite que todos los elementos dentro de esa ContentPage puedan enlazar sus propiedades a las propiedades de SignUpFormViewModel sin necesidad de especificar un camino de enlace completo desde la raíz, ya que SignUpFormViewModel ahora es el contexto de datos local para esa página.
+    Asignar un objeto como el BindingContext significa que estás estableciendo ese objeto como la fuente de datos principal para los enlaces dentro de un control o página-->
+
+    
+    <VerticalStackLayout x:DataType="vm:SignUpFormViewModel" >
+      <!--con x:DataType estoy diciendo que las propiedades y métodos-comandos mencionados dentro de la etiqueta VerticalStackLayouts pertencerán a la clase SignUpFormViewModel, la cual se halla dentro de la carpeta que abrevié vm.-->
+
+        <Entry Placeholder="Nombre" Text="{Binding Name}" x:Name="nombreEntry"/>
+        <Entry Placeholder="LastName" Text="{Binding LastName}" x:Name="LastNameEntry"/>
+        <Entry Placeholder="Contraseña" Text="{Binding Password}" x:Name="passwordEntry" IsPassword="True"/>
+        <Entry Placeholder="Email" Text="{Binding Email}" x:Name="EmailEntry"/>
+
+        <Picker Title="Selecciona tu edad"
+                ItemsSource="{Binding Ages}"
+                SelectedItem="{Binding Age}"
+                />
+
+        <Picker Title="Selecciona una rama"
+                ItemsSource="{Binding Ramas}"
+                SelectedItem="{Binding RamaSeleccionada}"/>
+
+        <Button Text="SignUp" Command="{Binding SignUpCommand}" x:Name="btnSignUp"/>
+        
+        <Button Text="Back" Command="{Binding BackCommand}"/>
+
+        <Label Text="{Binding Id}"/>
+
+        <CollectionView ItemsSource="{Binding Errors}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding .}"/>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+    
+</ContentPage>
